@@ -1,0 +1,40 @@
+2025-07-05 17:17:47 [[32minfo[39m]: 🤖 Bot Peta (Versi Geoapify OpenStreetMap) telah berhasil dijalankan.
+2025-07-05 17:17:50 [[32minfo[39m]: Pengguna 1348403944 (kahfifauzan) menggunakan perintah: /start
+2025-07-05 17:17:52 [[32minfo[39m]: Titik A diterima dari pengguna 1348403944: -6.182752, 106.619575
+2025-07-05 17:17:54 [[32minfo[39m]: Memproses permintaan peta dari chat ID: 1348403944
+2025-07-05 17:17:56 [[31merror[39m]: Error saat memproses Geoapify API: ETELEGRAM: 400 Bad Request: failed to get HTTP URL content
+2025-07-05 17:19:46 [[32minfo[39m]: 🤖 Bot Peta (Versi Geoapify OpenStreetMap) telah berhasil dijalankan.
+2025-07-05 17:19:50 [[32minfo[39m]: Pengguna 1348403944 (kahfifauzan) menggunakan perintah: /start
+2025-07-05 17:19:50 [[31merror[39m]: [Polling Error]: EFATAL - EFATAL: AggregateError
+2025-07-05 17:19:53 [[32minfo[39m]: Titik A diterima dari pengguna 1348403944: -6.127336, 106.526865
+2025-07-05 17:19:55 [[32minfo[39m]: Memproses permintaan peta dari chat ID: 1348403944
+2025-07-05 17:19:56 [[32minfo[39m]: Static map URL: https://maps.geoapify.com/v1/staticmap?style=osm-carto&width=800&height=600&marker=lonlat:106.526865,-6.127336;type:material;icon:circle;size:large;color:%2300ff00;whitecircle:no;|lonlat:106.600074,-6.182551;type:material;icon:circle;size:large;color:%23ff0000;whitecircle:no;&apiKey=8165f68501fe429fab3f8bc4a509a609
+2025-07-05 17:19:57 [[31merror[39m]: Error saat memproses Geoapify API: ETELEGRAM: 400 Bad Request: failed to get HTTP URL content
+2025-07-05 17:21:14 [[32minfo[39m]: 🤖 Bot Peta (Versi Geoapify OpenStreetMap) telah berhasil dijalankan.
+2025-07-05 17:21:17 [[32minfo[39m]: Pengguna 1348403944 (kahfifauzan) menggunakan perintah: /start
+2025-07-05 17:21:18 [[31merror[39m]: [Polling Error]: EFATAL - EFATAL: AggregateError
+2025-07-05 17:21:20 [[32minfo[39m]: Titik A diterima dari pengguna 1348403944: -6.182752, 106.619575
+2025-07-05 17:21:22 [[32minfo[39m]: Memproses permintaan peta dari chat ID: 1348403944
+2025-07-05 17:21:23 [[32minfo[39m]: Static map URL: https://maps.geoapify.com/v1/staticmap?style=osm-carto&width=800&height=600&marker=lonlat:106.619575,-6.182752;type:material;icon:circle;size:large;color:%2300ff00;whitecircle:no;|lonlat:106.629093,-6.167958;type:material;icon:circle;size:large;color:%23ff0000;whitecircle:no;&apiKey=8165f68501fe429fab3f8bc4a509a609
+2025-07-05 17:21:24 [[31merror[39m]: Error saat memproses Geoapify API: Request failed with status code 400
+2025-07-05 17:24:36 [[32minfo[39m]: Pengguna 1348403944 (kahfifauzan) menggunakan perintah: /start
+2025-07-05 17:24:44 [[32minfo[39m]: Titik A diterima dari pengguna 1348403944: -6.169972, 106.625076
+2025-07-05 17:24:48 [[32minfo[39m]: Memproses permintaan peta dari chat ID: 1348403944
+2025-07-05 17:24:50 [[32minfo[39m]: Static map URL: https://maps.geoapify.com/v1/staticmap?style=osm-carto&width=800&height=600&marker=lonlat:106.625076,-6.169972;type:material;icon:circle;size:large;color:%2300ff00;whitecircle:no;|lonlat:106.619575,-6.182752;type:material;icon:circle;size:large;color:%23ff0000;whitecircle:no;&apiKey=8165f68501fe429fab3f8bc4a509a609
+2025-07-05 17:24:50 [[31merror[39m]: Error saat memproses Geoapify API: Request failed with status code 400
+2025-07-05 17:24:54 [[32minfo[39m]: 🤖 Bot Peta (Versi Geoapify OpenStreetMap) telah berhasil dijalankan.
+2025-07-05 17:25:17 [[32minfo[39m]: 🤖 Bot Peta (Versi Geoapify OpenStreetMap) telah berhasil dijalankan.
+2025-07-05 17:25:21 [[32minfo[39m]: Pengguna 1348403944 (kahfifauzan) menggunakan perintah: /start
+2025-07-05 17:25:24 [[32minfo[39m]: Titik A diterima dari pengguna 1348403944: -6.127336, 106.526865
+2025-07-05 17:25:25 [[32minfo[39m]: Memproses permintaan peta dari chat ID: 1348403944
+2025-07-05 17:25:27 [[32minfo[39m]: Static map URL: https://maps.geoapify.com/v1/staticmap?style=osm-carto&width=800&height=600&marker=lonlat%3A106.526865%2C-6.127336%3Btype%3Amaterial%3Bicon%3Acircle%3Bsize%3Alarge%3Bcolor%3A%252300ff00%3Bwhitecircle%3Ano%3B%7Clonlat%3A106.629093%2C-6.167958%3Btype%3Amaterial%3Bicon%3Acircle%3Bsize%3Alarge%3Bcolor%3A%2523ff0000%3Bwhitecircle%3Ano%3B&apiKey=8165f68501fe429fab3f8bc4a509a609
+2025-07-05 17:25:27 [[31merror[39m]: Error saat memproses Geoapify API: Request failed with status code 400
+2025-07-05 17:26:32 [[32minfo[39m]: 🤖 Bot Peta (Versi Geoapify Final) telah berhasil dijalankan.
+2025-07-05 17:26:32 [[31merror[39m]: [Polling Error]: EFATAL - EFATAL: AggregateError
+2025-07-05 17:26:44 [[32minfo[39m]: Pengguna 1348403944 menggunakan perintah: /start
+2025-07-05 17:26:47 [[32minfo[39m]: Titik A diterima dari pengguna 1348403944: -6.182551, 106.600074
+2025-07-05 17:26:48 [[32minfo[39m]: Memproses permintaan peta dari chat ID: 1348403944 menggunakan Geoapify
+2025-07-05 17:26:51 [[31merror[39m]: --- ERROR LENGKAP SAAT MENGHUBUNGI GEOAPIFY ---
+2025-07-05 17:26:51 [[31merror[39m]: Status Code: undefined
+2025-07-05 17:26:51 [[31merror[39m]: Data Error: undefined
+2025-07-05 17:26:51 [[31merror[39m]: --- AKHIR DARI ERROR ---

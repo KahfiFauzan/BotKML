@@ -1,0 +1,1440 @@
+2025-07-05 22:21:08 [INFO]: Pengguna 1348403944 menggunakan perintah: /start
+2025-07-05 22:21:11 [INFO]: Titik A diterima dari pengguna 1348403944: -6.1856, 106.520177
+2025-07-05 22:21:13 [INFO]: Memproses permintaan peta dari chat ID: 1348403944 menggunakan Geoapify
+2025-07-05 22:21:13 [INFO]: Mengirim permintaan POST ke Static Map API Geoapify: https://maps.geoapify.com/v1/staticmap?style=osm-carto&width=800&height=600&marker=lonlat%3A106.520177%2C-6.1856%3Btype%3Amaterial%3Bicon%3Acircle%3Bsize%3Alarge%3Bcolor%3A%252300FF00%3Bwhitecircle%3Ano%7Clonlat%3A106.619575%2C-6.182752%3Btype%3Amaterial%3Bicon%3Acircle%3Bsize%3Alarge%3Bcolor%3A%2523FF0000%3Bwhitecircle%3Ano&apiKey=9e540be7aa4c4c439a0c0035d76cfbf6
+2025-07-05 22:21:19 [INFO]: Peta Geoapify berhasil dikirim ke chat ID: 1348403944
+2025-07-05 22:21:19 [INFO]: URL Google Maps interaktif dikirim ke chat ID: 1348403944
+2025-07-05 22:23:19 [INFO]: 🤖 Bot Peta (Versi Geoapify Final) telah berhasil dijalankan.
+2025-07-05 22:23:32 [INFO]: 🤖 Bot Peta (Versi Geoapify Final) telah berhasil dijalankan.
+2025-07-05 22:23:36 [INFO]: Pengguna 1348403944 menggunakan perintah: /start
+2025-07-05 22:23:43 [INFO]: Titik A diterima dari pengguna 1348403944: -6.182752, 106.619575
+2025-07-05 22:23:48 [INFO]: Memproses permintaan peta dari chat ID: 1348403944 menggunakan Geoapify
+2025-07-05 22:23:49 [INFO]: Mengirim permintaan POST ke Static Map API Geoapify: https://maps.geoapify.com/v1/staticmap?style=osm-carto&width=800&height=600&marker=lonlat%3A106.619575%2C-6.182752%3Btype%3Amaterial%3Bicon%3Acircle%3Bsize%3Alarge%3Bcolor%3A%252300FF00%3Bwhitecircle%3Ano%7Clonlat%3A106.520177%2C-6.1856%3Btype%3Amaterial%3Bicon%3Acircle%3Bsize%3Alarge%3Bcolor%3A%2523FF0000%3Bwhitecircle%3Ano&apiKey=9e540be7aa4c4c439a0c0035d76cfbf6
+2025-07-05 22:23:49 [ERROR]: --- ERROR SAAT MENGHUBUNGI API ---
+2025-07-05 22:23:49 [ERROR]: Status: 400
+2025-07-05 22:23:49 [ERROR]: Data: {"statusCode":400,"error":"Bad Request","message":"\"geometries[0]\" does not match any of the allowed types"}
+2025-07-05 22:23:49 [ERROR]: Stack: AxiosError: Request failed with status code 400
+    at settle (D:\Project KP\node_modules\axios\dist\node\axios.cjs:2053:12)
+    at IncomingMessage.handleStreamEnd (D:\Project KP\node_modules\axios\dist\node\axios.cjs:3170:11)
+    at IncomingMessage.emit (node:events:530:35)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+    at Axios.request (D:\Project KP\node_modules\axios\dist\node\axios.cjs:4280:41)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async processAndSendMap (D:\Project KP\index.js:80:27)
+    at async handleNewLocation (D:\Project KP\index.js:143:5)
+    at async TelegramBot.<anonymous> (D:\Project KP\index.js:187:5)
+2025-07-05 22:23:49 [ERROR]: --- AKHIR ERROR ---
+2025-07-05 22:24:24 [INFO]: 🤖 Bot Peta (Versi Geoapify Final) telah berhasil dijalankan.
+2025-07-05 22:24:27 [INFO]: Pengguna 1348403944 menggunakan perintah: /start
+2025-07-05 22:24:31 [INFO]: Titik A diterima dari pengguna 1348403944: -6.127336, 106.526865
+2025-07-05 22:24:34 [INFO]: Memproses permintaan peta dari chat ID: 1348403944 menggunakan Geoapify
+2025-07-05 22:24:34 [INFO]: Mengirim permintaan POST ke Static Map API Geoapify: https://maps.geoapify.com/v1/staticmap?style=osm-carto&width=800&height=600&marker=lonlat%3A106.526865%2C-6.127336%3Btype%3Amaterial%3Bicon%3Acircle%3Bsize%3Alarge%3Bcolor%3A%252300FF00%3Bwhitecircle%3Ano%7Clonlat%3A106.588261%2C-6.224604%3Btype%3Amaterial%3Bicon%3Acircle%3Bsize%3Alarge%3Bcolor%3A%2523FF0000%3Bwhitecircle%3Ano&apiKey=9e540be7aa4c4c439a0c0035d76cfbf6
+2025-07-05 22:24:35 [ERROR]: --- ERROR SAAT MENGHUBUNGI API ---
+2025-07-05 22:24:35 [ERROR]: Status: 400
+2025-07-05 22:24:35 [ERROR]: Data: {"statusCode":400,"error":"Bad Request","message":"\"geometries[0]\" does not match any of the allowed types"}
+2025-07-05 22:24:35 [ERROR]: Stack: AxiosError: Request failed with status code 400
+    at settle (D:\Project KP\node_modules\axios\dist\node\axios.cjs:2053:12)
+    at IncomingMessage.handleStreamEnd (D:\Project KP\node_modules\axios\dist\node\axios.cjs:3170:11)
+    at IncomingMessage.emit (node:events:530:35)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+    at Axios.request (D:\Project KP\node_modules\axios\dist\node\axios.cjs:4280:41)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async processAndSendMap (D:\Project KP\index.js:77:27)
+    at async handleNewLocation (D:\Project KP\index.js:138:5)
+    at async TelegramBot.<anonymous> (D:\Project KP\index.js:158:3)
+2025-07-05 22:24:35 [ERROR]: --- AKHIR ERROR ---
+2025-07-05 22:25:05 [INFO]: 🤖 Bot Peta (Versi Geoapify Final) telah berhasil dijalankan.
+2025-07-05 22:25:08 [INFO]: Pengguna 1348403944 menggunakan perintah: /start
+2025-07-05 22:25:10 [INFO]: Titik A diterima dari pengguna 1348403944: -6.127336, 106.526865
+2025-07-05 22:25:12 [INFO]: Memproses permintaan peta dari chat ID: 1348403944 menggunakan Geoapify
+2025-07-05 22:25:13 [INFO]: Mengirim permintaan POST ke Static Map API Geoapify: https://maps.geoapify.com/v1/staticmap?style=osm-carto&width=800&height=600&marker=lonlat%3A106.526865%2C-6.127336%3Btype%3Amaterial%3Bicon%3Acircle%3Bsize%3Alarge%3Bcolor%3A%252300FF00%3Bwhitecircle%3Ano%7Clonlat%3A106.588261%2C-6.224604%3Btype%3Amaterial%3Bicon%3Acircle%3Bsize%3Alarge%3Bcolor%3A%2523FF0000%3Bwhitecircle%3Ano&apiKey=9e540be7aa4c4c439a0c0035d76cfbf6
+2025-07-05 22:25:14 [ERROR]: --- ERROR SAAT MENGHUBUNGI API ---
+2025-07-05 22:25:14 [ERROR]: Status: 400
+2025-07-05 22:25:14 [ERROR]: Data: {"statusCode":400,"error":"Bad Request","message":"\"value\" must contain at least one of [area, center, markers, geometries, geojson]"}
+2025-07-05 22:25:14 [ERROR]: Stack: AxiosError: Request failed with status code 400
+    at settle (D:\Project KP\node_modules\axios\dist\node\axios.cjs:2053:12)
+    at IncomingMessage.handleStreamEnd (D:\Project KP\node_modules\axios\dist\node\axios.cjs:3170:11)
+    at IncomingMessage.emit (node:events:530:35)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+    at Axios.request (D:\Project KP\node_modules\axios\dist\node\axios.cjs:4280:41)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async processAndSendMap (D:\Project KP\index.js:84:27)
+    at async handleNewLocation (D:\Project KP\index.js:146:5)
+    at async TelegramBot.<anonymous> (D:\Project KP\index.js:166:3)
+2025-07-05 22:25:14 [ERROR]: --- AKHIR ERROR ---
+2025-07-05 22:25:41 [INFO]: 🤖 Bot Peta (Versi Geoapify Final) telah berhasil dijalankan.
+2025-07-05 22:25:47 [INFO]: Pengguna 1348403944 menggunakan perintah: /start
+2025-07-05 22:25:50 [INFO]: Titik A diterima dari pengguna 1348403944: -6.1856, 106.520177
+2025-07-05 22:25:52 [INFO]: Memproses permintaan peta dari chat ID: 1348403944 menggunakan Geoapify
+2025-07-05 22:25:53 [INFO]: Mengirim permintaan POST ke Static Map API Geoapify: https://maps.geoapify.com/v1/staticmap?style=osm-carto&width=800&height=600&marker=lonlat%3A106.520177%2C-6.1856%3Btype%3Amaterial%3Bicon%3Acircle%3Bsize%3Alarge%3Bcolor%3A%252300FF00%3Bwhitecircle%3Ano%7Clonlat%3A106.634444%2C-6.183549%3Btype%3Amaterial%3Bicon%3Acircle%3Bsize%3Alarge%3Bcolor%3A%2523FF0000%3Bwhitecircle%3Ano&apiKey=9e540be7aa4c4c439a0c0035d76cfbf6
+2025-07-05 22:25:53 [ERROR]: --- ERROR SAAT MENGHUBUNGI API ---
+2025-07-05 22:25:53 [ERROR]: Status: 400
+2025-07-05 22:25:53 [ERROR]: Data: {"statusCode":400,"error":"Bad Request","message":"\"value\" must contain at least one of [area, center, markers, geometries, geojson]"}
+2025-07-05 22:25:53 [ERROR]: Stack: AxiosError: Request failed with status code 400
+    at settle (D:\Project KP\node_modules\axios\dist\node\axios.cjs:2053:12)
+    at IncomingMessage.handleStreamEnd (D:\Project KP\node_modules\axios\dist\node\axios.cjs:3170:11)
+    at IncomingMessage.emit (node:events:530:35)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+    at Axios.request (D:\Project KP\node_modules\axios\dist\node\axios.cjs:4280:41)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async processAndSendMap (D:\Project KP\index.js:86:27)
+    at async handleNewLocation (D:\Project KP\index.js:148:5)
+    at async TelegramBot.<anonymous> (D:\Project KP\index.js:168:3)
+2025-07-05 22:25:53 [ERROR]: --- AKHIR ERROR ---
+2025-07-05 22:26:06 [INFO]: 🤖 Bot Peta telah berhasil dijalankan.
+2025-07-05 22:26:10 [INFO]: Pengguna 1348403944 menggunakan perintah: /start
+2025-07-05 22:26:12 [INFO]: Titik A diterima dari pengguna 1348403944: -6.182752, 106.619575
+2025-07-05 22:26:16 [INFO]: Memproses permintaan peta dari chat ID: 1348403944 menggunakan Geoapify
+2025-07-05 22:26:16 [INFO]: Mengirim permintaan POST ke Static Map API Geoapify: https://maps.geoapify.com/v1/staticmap?style=osm-carto&width=800&height=600&marker=lonlat%3A106.619575%2C-6.182752%3Btype%3Amaterial%3Bicon%3Acircle%3Bsize%3Alarge%3Bcolor%3A%252300FF00%3Bwhitecircle%3Ano%7Clonlat%3A106.643325%2C-6.179694%3Btype%3Amaterial%3Bicon%3Acircle%3Bsize%3Alarge%3Bcolor%3A%2523FF0000%3Bwhitecircle%3Ano&apiKey=9e540be7aa4c4c439a0c0035d76cfbf6
+2025-07-05 22:26:21 [INFO]: Peta Geoapify berhasil dikirim ke chat ID: 1348403944
+2025-07-05 22:26:21 [INFO]: URL Google Maps interaktif dikirim ke chat ID: 1348403944
+2025-07-05 22:26:37 [INFO]: 🤖 Bot Peta (Versi Geoapify Final) telah berhasil dijalankan.
+2025-07-05 22:26:40 [INFO]: Pengguna 1348403944 menggunakan perintah: /start
+2025-07-05 22:26:48 [INFO]: Titik A diterima dari pengguna 1348403944: -6.179694, 106.643325
+2025-07-05 22:26:51 [INFO]: Memproses permintaan peta dari chat ID: 1348403944 menggunakan Geoapify
+2025-07-05 22:26:52 [INFO]: Mengirim permintaan POST ke Static Map API Geoapify: https://maps.geoapify.com/v1/staticmap?style=osm-carto&width=800&height=600&marker=lonlat%3A106.643325%2C-6.179694%3Btype%3Amaterial%3Bicon%3Acircle%3Bsize%3Alarge%3Bcolor%3A%252300FF00%3Bwhitecircle%3Ano%7Clonlat%3A106.520177%2C-6.1856%3Btype%3Amaterial%3Bicon%3Acircle%3Bsize%3Alarge%3Bcolor%3A%2523FF0000%3Bwhitecircle%3Ano&apiKey=9e540be7aa4c4c439a0c0035d76cfbf6
+2025-07-05 22:26:57 [INFO]: Peta Geoapify berhasil dikirim ke chat ID: 1348403944
+2025-07-05 22:26:57 [INFO]: URL Google Maps interaktif dikirim ke chat ID: 1348403944
+2025-07-05 22:30:01 [INFO]: 🤖 Bot Peta (Versi Geoapify Final) telah berhasil dijalankan.
+2025-07-05 22:30:04 [INFO]: Pengguna 1348403944 menggunakan perintah: /start
+2025-07-05 22:30:07 [INFO]: Titik A diterima dari pengguna 1348403944: -6.127336, 106.526865
+2025-07-05 22:30:08 [INFO]: Memproses permintaan peta dari chat ID: 1348403944 menggunakan Geoapify
+2025-07-05 22:30:09 [INFO]: Mengirim permintaan POST ke Static Map API Geoapify: https://maps.geoapify.com/v1/staticmap?style=osm-carto&width=800&height=600&marker=lonlat%3A106.526865%2C-6.127336%3Btype%3Amaterial%3Bicon%3Acircle%3Bsize%3Alarge%3Bcolor%3A%252300FF00%3Bwhitecircle%3Ano%7Clonlat%3A106.629093%2C-6.167958%3Btype%3Amaterial%3Bicon%3Acircle%3Bsize%3Alarge%3Bcolor%3A%2523FF0000%3Bwhitecircle%3Ano&apiKey=9e540be7aa4c4c439a0c0035d76cfbf6
+2025-07-05 22:30:14 [INFO]: Peta Geoapify berhasil dikirim ke chat ID: 1348403944
+2025-07-05 22:30:14 [INFO]: URL Google Maps interaktif dikirim ke chat ID: 1348403944
+2025-07-05 22:35:45 [INFO]: 🤖 Bot Peta) telah berhasil dijalankan.
+2025-07-05 22:37:31 [INFO]: Pengguna 1348403944 menggunakan perintah: /start
+2025-07-05 22:41:17 [INFO]: Pengguna 1394589066 menggunakan perintah: /start
+2025-07-05 22:42:30 [INFO]: Pengguna 1071855161 menggunakan perintah: /start
+2025-07-05 22:43:34 [INFO]: Titik A diterima dari pengguna 1348403944: -6.182752, 106.619575
+2025-07-05 22:43:36 [INFO]: Memproses permintaan peta dari chat ID: 1348403944 menggunakan Geoapify
+2025-07-05 22:43:37 [INFO]: Mengirim permintaan POST ke Static Map API Geoapify: https://maps.geoapify.com/v1/staticmap?style=osm-carto&width=800&height=600&marker=lonlat%3A106.619575%2C-6.182752%3Btype%3Amaterial%3Bicon%3Acircle%3Bsize%3Alarge%3Bcolor%3A%252300FF00%3Bwhitecircle%3Ano%7Clonlat%3A106.637002%2C-6.18001%3Btype%3Amaterial%3Bicon%3Acircle%3Bsize%3Alarge%3Bcolor%3A%2523FF0000%3Bwhitecircle%3Ano&apiKey=9e540be7aa4c4c439a0c0035d76cfbf6
+2025-07-05 22:43:41 [INFO]: Titik A diterima dari pengguna 1394589066: -6.610197, 106.742066
+2025-07-05 22:43:42 [INFO]: Peta Geoapify berhasil dikirim ke chat ID: 1348403944
+2025-07-05 22:43:42 [INFO]: URL Google Maps interaktif dikirim ke chat ID: 1348403944
+2025-07-05 22:43:49 [INFO]: Memproses permintaan peta dari chat ID: 1394589066 menggunakan Geoapify
+2025-07-05 22:43:51 [INFO]: Mengirim permintaan POST ke Static Map API Geoapify: https://maps.geoapify.com/v1/staticmap?style=osm-carto&width=800&height=600&marker=lonlat%3A106.742066%2C-6.610197%3Btype%3Amaterial%3Bicon%3Acircle%3Bsize%3Alarge%3Bcolor%3A%252300FF00%3Bwhitecircle%3Ano%7Clonlat%3A106.726199%2C-6.667339%3Btype%3Amaterial%3Bicon%3Acircle%3Bsize%3Alarge%3Bcolor%3A%2523FF0000%3Bwhitecircle%3Ano&apiKey=9e540be7aa4c4c439a0c0035d76cfbf6
+2025-07-05 22:44:10 [INFO]: Peta Geoapify berhasil dikirim ke chat ID: 1394589066
+2025-07-05 22:44:10 [INFO]: URL Google Maps interaktif dikirim ke chat ID: 1394589066
+2025-07-05 22:50:13 [INFO]: Titik A diterima dari pengguna 1071855161: -6.648681, 106.636663
+2025-07-05 23:18:21 [ERROR]: [Polling Error]: EFATAL - EFATAL: Error: read ECONNRESET
+2025-07-05 23:18:37 [INFO]: 🤖 Bot Peta) telah berhasil dijalankan.
+2025-07-05 23:47:54 [ERROR]: [Polling Error]: EFATAL - EFATAL: Error: read ECONNRESET
+2025-07-05 23:47:55 [INFO]: Pengguna 1348403944 menggunakan perintah: /start
+2025-07-05 23:51:42 [ERROR]: [Polling Error]: EFATAL - EFATAL: Error: read ECONNRESET
+2025-07-06 00:22:23 [ERROR]: [Polling Error]: EFATAL - EFATAL: Error: read ECONNRESET
+2025-07-06 13:31:36 [INFO]: 🤖 Bot Peta) telah berhasil dijalankan.
+2025-07-06 13:32:12 [INFO]: Titik A diterima dari pengguna 1348403944: -6.139466, 106.578798
+2025-07-06 13:32:17 [INFO]: Memproses permintaan peta dari chat ID: 1348403944 menggunakan Geoapify
+2025-07-06 13:32:17 [INFO]: Mengirim permintaan POST ke Static Map API Geoapify: https://maps.geoapify.com/v1/staticmap?style=osm-carto&width=800&height=600&marker=lonlat%3A106.578798%2C-6.139466%3Btype%3Amaterial%3Bicon%3Acircle%3Bsize%3Alarge%3Bcolor%3A%252300FF00%3Bwhitecircle%3Ano%7Clonlat%3A106.633538%2C-6.194384%3Btype%3Amaterial%3Bicon%3Acircle%3Bsize%3Alarge%3Bcolor%3A%2523FF0000%3Bwhitecircle%3Ano&apiKey=9e540be7aa4c4c439a0c0035d76cfbf6
+2025-07-06 13:32:23 [INFO]: Peta Geoapify berhasil dikirim ke chat ID: 1348403944
+2025-07-06 13:32:23 [INFO]: URL Google Maps interaktif dikirim ke chat ID: 1348403944
+2025-07-06 14:12:44 [ERROR]: [Polling Error]: EFATAL - EFATAL: Error: read ECONNRESET
+2025-07-06 14:12:45 [INFO]: Pengguna 7921923956 menggunakan perintah: /start
+2025-07-06 14:12:45 [INFO]: Pengguna 7921923956 menggunakan perintah: /start
+2025-07-06 19:20:36 [INFO]: 🤖 Bot Peta) telah berhasil dijalankan.
+2025-07-06 19:20:37 [INFO]: Titik A diterima dari pengguna 7921923956: -6.649143, 106.635216
+2025-07-06 19:20:37 [INFO]: Memproses permintaan peta dari chat ID: 7921923956 menggunakan Geoapify
+2025-07-06 19:20:37 [INFO]: Pengguna 288084955 menggunakan perintah: /start
+2025-07-06 19:20:38 [INFO]: Mengirim permintaan POST ke Static Map API Geoapify: https://maps.geoapify.com/v1/staticmap?style=osm-carto&width=800&height=600&marker=lonlat%3A106.635216%2C-6.649143%3Btype%3Amaterial%3Bicon%3Acircle%3Bsize%3Alarge%3Bcolor%3A%252300FF00%3Bwhitecircle%3Ano%7Clonlat%3A106.635172%2C-6.648837%3Btype%3Amaterial%3Bicon%3Acircle%3Bsize%3Alarge%3Bcolor%3A%2523FF0000%3Bwhitecircle%3Ano&apiKey=9e540be7aa4c4c439a0c0035d76cfbf6
+2025-07-06 19:20:42 [INFO]: Peta Geoapify berhasil dikirim ke chat ID: 7921923956
+2025-07-06 19:20:42 [INFO]: URL Google Maps interaktif dikirim ke chat ID: 7921923956
+2025-07-06 19:22:14 [INFO]: Titik A diterima dari pengguna 288084955: -6.21033, 106.834327
+2025-07-06 19:22:27 [INFO]: Memproses permintaan peta dari chat ID: 288084955 menggunakan Geoapify
+2025-07-06 19:22:28 [INFO]: Mengirim permintaan POST ke Static Map API Geoapify: https://maps.geoapify.com/v1/staticmap?style=osm-carto&width=800&height=600&marker=lonlat%3A106.834327%2C-6.21033%3Btype%3Amaterial%3Bicon%3Acircle%3Bsize%3Alarge%3Bcolor%3A%252300FF00%3Bwhitecircle%3Ano%7Clonlat%3A106.821667%2C-6.1935%3Btype%3Amaterial%3Bicon%3Acircle%3Bsize%3Alarge%3Bcolor%3A%2523FF0000%3Bwhitecircle%3Ano&apiKey=9e540be7aa4c4c439a0c0035d76cfbf6
+2025-07-06 19:22:32 [INFO]: Peta Geoapify berhasil dikirim ke chat ID: 288084955
+2025-07-06 19:22:32 [INFO]: URL Google Maps interaktif dikirim ke chat ID: 288084955
+2025-07-06 22:28:04 [INFO]: 🤖 Bot Peta (Versi Geoapify Final) telah berhasil dijalankan.
+2025-07-06 22:28:18 [INFO]: Pengguna 1348403944 menggunakan perintah: /start
+2025-07-06 22:28:47 [INFO]: Pengguna 1348403944 mencoba mendaftar dengan NIK: NIK_ANDA
+2025-07-06 22:30:28 [INFO]: 🤖 Bot Peta telah berhasil dijalankan.
+2025-07-06 22:31:21 [INFO]: Pengguna 1348403944 menggunakan perintah: /start
+2025-07-06 22:37:33 [INFO]: Pengguna 1348403944 menggunakan perintah: /start
+2025-07-06 22:37:37 [INFO]: Pengguna 1348403944 mencoba mendaftar dengan NIK: 123456
+2025-07-06 22:37:37 [INFO]: Pengguna 1348403944 berhasil terverifikasi dengan NIK 123456.
+2025-07-06 22:39:48 [INFO]: 🤖 Bot Peta telah berhasil dijalankan.
+2025-07-06 22:39:55 [INFO]: Pengguna 1348403944 menggunakan perintah: /start
+2025-07-06 22:43:21 [INFO]: 🤖 Bot Peta telah berhasil dijalankan.
+2025-07-06 22:43:24 [INFO]: Pengguna 1348403944 menggunakan perintah: /start
+2025-07-06 22:43:36 [INFO]: Pengguna 1348403944 menggunakan perintah: /start
+2025-07-06 22:43:44 [INFO]: Pengguna 1348403944 menggunakan perintah: /help
+2025-07-06 22:45:44 [INFO]: 🤖 Bot Peta telah berhasil dijalankan.
+2025-07-06 22:45:47 [WARN]: Pengguna 1348403944 menggunakan perintah tidak dikenal: /start
+2025-07-06 22:45:47 [INFO]: Pengguna 1348403944 menggunakan perintah: /start
+2025-07-06 22:46:30 [INFO]: 🤖 Bot Peta telah berhasil dijalankan.
+2025-07-06 22:46:33 [INFO]: Pengguna 1348403944 menggunakan perintah: /start
+2025-07-06 22:46:36 [WARN]: Pengguna 1348403944 menggunakan perintah tidak dikenal: /[
+2025-07-06 22:48:20 [INFO]: Pengguna 1348403944 menggunakan perintah: /start
+2025-07-06 22:48:26 [INFO]: Pengguna 1348403944 mencoba mendaftar dengan NIK: 123456
+2025-07-06 22:48:26 [INFO]: Pengguna 1348403944 berhasil terverifikasi dengan NIK 123456.
+2025-07-06 22:49:09 [INFO]: Titik A diterima dari pengguna 1348403944: -6.1856, 106.520177
+2025-07-06 22:49:13 [INFO]: Memproses permintaan peta dari chat ID: 1348403944 menggunakan Geoapify
+2025-07-06 22:49:14 [INFO]: Mengirim permintaan POST ke Static Map API Geoapify: https://maps.geoapify.com/v1/staticmap?style=osm-carto&width=800&height=600&marker=lonlat%3A106.520177%2C-6.1856%3Btype%3Amaterial%3Bicon%3Acircle%3Bsize%3Alarge%3Bcolor%3A%252300FF00%3Bwhitecircle%3Ano%7Clonlat%3A106.629093%2C-6.167958%3Btype%3Amaterial%3Bicon%3Acircle%3Bsize%3Alarge%3Bcolor%3A%2523FF0000%3Bwhitecircle%3Ano&apiKey=9e540be7aa4c4c439a0c0035d76cfbf6
+2025-07-06 22:49:19 [INFO]: Peta Geoapify berhasil dikirim ke chat ID: 1348403944
+2025-07-06 22:49:19 [INFO]: URL Google Maps interaktif dikirim ke chat ID: 1348403944
+2025-07-07 07:55:53 [INFO]: 🤖 Bot Peta telah berhasil dijalankan.
+2025-07-07 07:56:15 [INFO]: Pengguna 5298932344 menggunakan perintah: /start
+2025-07-07 07:56:57 [INFO]: Pengguna 5298932344 mencoba mendaftar dengan NIK: 12346
+2025-07-07 07:57:10 [WARN]: Pengguna 5298932344 menggunakan perintah tidak dikenal: /123456
+2025-07-07 07:57:21 [INFO]: Pengguna 5298932344 mencoba mendaftar dengan NIK: 123456
+2025-07-07 07:57:21 [INFO]: Pengguna 5298932344 berhasil terverifikasi dengan NIK 123456.
+2025-07-07 07:57:49 [INFO]: Titik A diterima dari pengguna 5298932344: -6.286345, 106.63669
+2025-07-07 07:57:59 [INFO]: Memproses permintaan peta dari chat ID: 5298932344 menggunakan Geoapify
+2025-07-07 07:58:00 [INFO]: Mengirim permintaan POST ke Static Map API Geoapify: https://maps.geoapify.com/v1/staticmap?style=osm-carto&width=800&height=600&marker=lonlat%3A106.63669%2C-6.286345%3Btype%3Amaterial%3Bicon%3Acircle%3Bsize%3Alarge%3Bcolor%3A%252300FF00%3Bwhitecircle%3Ano%7Clonlat%3A106.661969%2C-6.277644%3Btype%3Amaterial%3Bicon%3Acircle%3Bsize%3Alarge%3Bcolor%3A%2523FF0000%3Bwhitecircle%3Ano&apiKey=9e540be7aa4c4c439a0c0035d76cfbf6
+2025-07-07 07:58:15 [INFO]: Peta Geoapify berhasil dikirim ke chat ID: 5298932344
+2025-07-07 07:58:15 [INFO]: URL Google Maps interaktif dikirim ke chat ID: 5298932344
+2025-07-07 08:01:53 [INFO]: 🤖 Bot Peta telah berhasil dijalankan.
+2025-07-07 08:02:00 [INFO]: Pengguna 1348403944 menggunakan perintah: /start
+2025-07-07 08:02:00 [WARN]: Pengguna 1348403944 menggunakan perintah tidak dikenal: /start
+2025-07-07 08:02:10 [INFO]: 🤖 Bot Peta telah berhasil dijalankan.
+2025-07-07 08:02:12 [INFO]: Pengguna 1348403944 menggunakan perintah: /start
+2025-07-07 08:02:20 [INFO]: Pengguna 1348403944 mencoba mendaftar dengan NIK: 123456
+2025-07-07 08:02:20 [INFO]: Pengguna 1348403944 berhasil terverifikasi dengan NIK 123456.
+2025-07-07 08:02:25 [INFO]: Titik A diterima dari pengguna 1348403944: -6.284877, 106.637904
+2025-07-07 08:02:29 [INFO]: Memproses permintaan peta dari chat ID: 1348403944 menggunakan Geoapify
+2025-07-07 08:02:29 [INFO]: Mengirim permintaan POST ke Static Map API Geoapify: https://maps.geoapify.com/v1/staticmap?style=osm-carto&width=800&height=600&marker=lonlat%3A106.637904%2C-6.284877%3Btype%3Amaterial%3Bicon%3Acircle%3Bsize%3Alarge%3Bcolor%3A%252300FF00%3Bwhitecircle%3Ano%7Clonlat%3A106.623892%2C-6.296029%3Btype%3Amaterial%3Bicon%3Acircle%3Bsize%3Alarge%3Bcolor%3A%2523FF0000%3Bwhitecircle%3Ano&apiKey=9e540be7aa4c4c439a0c0035d76cfbf6
+2025-07-07 08:02:35 [INFO]: Peta Geoapify berhasil dikirim ke chat ID: 1348403944
+2025-07-07 08:02:35 [INFO]: URL Google Maps interaktif dikirim ke chat ID: 1348403944
+2025-07-07 09:46:53 [INFO]: 🤖 Bot Peta telah berhasil dijalankan.
+2025-07-07 09:47:38 [INFO]: Pengguna 580576493 menggunakan perintah: /start
+2025-07-07 09:47:49 [WARN]: Pengguna 580576493 menggunakan perintah tidak dikenal: /registet 123456
+2025-07-07 09:48:00 [INFO]: Pengguna 580576493 mencoba mendaftar dengan NIK: 123456
+2025-07-07 09:48:00 [INFO]: Pengguna 580576493 berhasil terverifikasi dengan NIK 123456.
+2025-07-07 09:49:26 [INFO]: Titik A diterima dari pengguna 580576493: -6.31366, 106.7080379
+2025-07-07 09:50:07 [INFO]: Memproses permintaan peta dari chat ID: 580576493 menggunakan Geoapify
+2025-07-07 09:50:08 [INFO]: Mengirim permintaan POST ke Static Map API Geoapify: https://maps.geoapify.com/v1/staticmap?style=osm-carto&width=800&height=600&marker=lonlat%3A106.7080379%2C-6.31366%3Btype%3Amaterial%3Bicon%3Acircle%3Bsize%3Alarge%3Bcolor%3A%252300FF00%3Bwhitecircle%3Ano%7Clonlat%3A106.7073576%2C-6.3139662%3Btype%3Amaterial%3Bicon%3Acircle%3Bsize%3Alarge%3Bcolor%3A%2523FF0000%3Bwhitecircle%3Ano&apiKey=9e540be7aa4c4c439a0c0035d76cfbf6
+2025-07-07 09:50:16 [INFO]: Peta Geoapify berhasil dikirim ke chat ID: 580576493
+2025-07-07 09:50:16 [INFO]: URL Google Maps interaktif dikirim ke chat ID: 580576493
+2025-07-07 10:02:05 [INFO]: 🤖 Bot Peta telah berhasil dijalankan.
+2025-07-07 10:02:20 [INFO]: Pengguna 1348403944 menggunakan perintah: /start
+2025-07-07 10:02:27 [INFO]: Pengguna 1348403944 mencoba mendaftar dengan NIK: 123456
+2025-07-07 10:02:27 [INFO]: Pengguna 1348403944 berhasil terverifikasi dengan NIK 123456.
+2025-07-07 10:02:33 [INFO]: Titik A diterima dari pengguna 1348403944: -6.299555, 106.664843
+2025-07-07 10:02:36 [INFO]: Memproses permintaan peta dari chat ID: 1348403944 menggunakan Geoapify
+2025-07-07 10:02:38 [INFO]: Mengirim permintaan POST ke Static Map API Geoapify: https://maps.geoapify.com/v1/staticmap?style=osm-carto&width=800&height=600&marker=lonlat%3A106.664843%2C-6.299555%3Btype%3Aawesome%3Bicon%3Alocation_pin%3Bsize%3Amedium%3Bcolor%3A%252300FF00%7Clonlat%3A106.639889%2C-6.267348%3Btype%3Aawesome%3Bicon%3Alocation_pin%3Bsize%3Amedium%3Bcolor%3A%2523FF0000&apiKey=9e540be7aa4c4c439a0c0035d76cfbf6
+2025-07-07 10:02:44 [INFO]: Peta Geoapify berhasil dikirim ke chat ID: 1348403944
+2025-07-07 10:08:31 [INFO]: 🤖 Bot Peta telah berhasil dijalankan.
+2025-07-07 10:08:43 [INFO]: Pengguna 1348403944 menggunakan perintah: /start
+2025-07-07 10:08:48 [WARN]: Pengguna 1348403944 mencoba menggunakan bot tanpa verifikasi NIK.
+2025-07-07 10:08:50 [WARN]: Pengguna 1348403944 mencoba menggunakan bot tanpa verifikasi NIK.
+2025-07-07 10:08:56 [INFO]: Pengguna 1348403944 mencoba mendaftar dengan NIK: 123456
+2025-07-07 10:08:56 [INFO]: Pengguna 1348403944 berhasil terverifikasi dengan NIK 123456.
+2025-07-07 10:09:55 [INFO]: Titik A diterima dari pengguna 1348403944: -6.286345, 106.63669
+2025-07-07 10:09:58 [INFO]: Memproses permintaan peta dari chat ID: 1348403944 menggunakan Geoapify
+2025-07-07 10:09:59 [INFO]: Mengirim permintaan POST ke Static Map API Geoapify: https://maps.geoapify.com/v1/staticmap?style=osm-carto&width=800&height=600&marker=lonlat%3A106.63669%2C-6.286345%3Btype%3Aawesome%3Bicon%3Alocation_pin%3Bsize%3Amedium%3Bcolor%3A%252300FF00%7Clonlat%3A106.65341%2C-6.302244%3Btype%3Aawesome%3Bicon%3Alocation_pin%3Bsize%3Amedium%3Bcolor%3A%2523FF0000&apiKey=9e540be7aa4c4c439a0c0035d76cfbf6
+2025-07-07 10:10:05 [INFO]: Peta Geoapify berhasil dikirim ke chat ID: 1348403944
+2025-07-07 10:11:38 [INFO]: 🤖 Bot Peta telah berhasil dijalankan.
+2025-07-07 10:11:45 [INFO]: Pengguna 1348403944 berhasil terverifikasi.
+2025-07-07 10:11:49 [INFO]: Titik A diterima dari pengguna 1348403944: -6.284877, 106.637904
+2025-07-07 10:11:51 [INFO]: Memproses permintaan peta dari chat ID: 1348403944 menggunakan Geoapify
+2025-07-07 10:12:01 [INFO]: Peta Geoapify berhasil dikirim ke chat ID: 1348403944
+2025-07-07 10:12:33 [INFO]: Titik A diterima dari pengguna 1348403944: 29.748725, 115.349095
+2025-07-07 10:12:40 [INFO]: Memproses permintaan peta dari chat ID: 1348403944 menggunakan Geoapify
+2025-07-07 10:13:03 [WARN]: Rute atau geometri Geoapify tidak ditemukan untuk chat ID: 1348403944
+2025-07-07 10:13:23 [INFO]: Titik A diterima dari pengguna 1348403944: -6.320136, 106.643317
+2025-07-07 10:13:25 [INFO]: Memproses permintaan peta dari chat ID: 1348403944 menggunakan Geoapify
+2025-07-07 10:13:31 [INFO]: Peta Geoapify berhasil dikirim ke chat ID: 1348403944
+2025-07-07 10:17:10 [INFO]: 🤖 Bot Peta telah berhasil dijalankan.
+2025-07-07 10:17:19 [INFO]: Pengguna 1348403944 berhasil verifikasi.
+2025-07-07 10:17:24 [ERROR]: Gagal saat membuat peta rute:
+2025-07-07 10:17:46 [INFO]: 🤖 Bot Peta telah berhasil dijalankan.
+2025-07-07 10:18:41 [INFO]: Pengguna 1348403944 berhasil verifikasi.
+2025-07-07 10:18:46 [ERROR]: Gagal saat membuat peta rute:
+2025-07-07 10:19:25 [INFO]: 🤖 Bot Peta telah berhasil dijalankan.
+2025-07-07 10:19:36 [INFO]: Pengguna 1348403944 berhasil verifikasi.
+2025-07-07 10:19:41 [ERROR]: Gagal saat membuat peta rute: Request failed with status code 400
+2025-07-07 10:23:02 [INFO]: 🤖 Bot Peta telah berhasil dijalankan.
+2025-07-07 10:23:05 [INFO]: Pengguna 1348403944 menggunakan perintah: /start
+2025-07-07 10:23:10 [INFO]: Pengguna 1348403944 mencoba mendaftar dengan NIK: 123456
+2025-07-07 10:23:10 [INFO]: Pengguna 1348403944 berhasil terverifikasi dengan NIK 123456.
+2025-07-07 10:23:12 [INFO]: Titik A diterima dari pengguna 1348403944: -6.30294, 106.654368
+2025-07-07 10:23:15 [INFO]: Memproses permintaan peta dari chat ID: 1348403944 menggunakan Geoapify
+2025-07-07 10:23:16 [INFO]: Mengirim permintaan POST ke Static Map API Geoapify: https://maps.geoapify.com/v1/staticmap?style=osm-carto&width=800&height=600&marker=lonlat%3A106.654368%2C-6.30294%3Btype%3Amaterial%3Bicon%3Acircle%3Bsize%3Alarge%3Bcolor%3A%252300FF00%3Bwhitecircle%3Ano%7Clonlat%3A106.656001%2C-6.227699%3Btype%3Amaterial%3Bicon%3Acircle%3Bsize%3Alarge%3Bcolor%3A%2523FF0000%3Bwhitecircle%3Ano&apiKey=9e540be7aa4c4c439a0c0035d76cfbf6
+2025-07-07 10:23:56 [INFO]: Peta Geoapify berhasil dikirim ke chat ID: 1348403944
+2025-07-07 10:23:56 [INFO]: URL Google Maps interaktif dikirim ke chat ID: 1348403944
+2025-07-07 10:39:39 [INFO]: 🤖 Bot Peta telah berhasil dijalankan.
+2025-07-07 10:39:47 [INFO]: Pengguna 1348403944 menggunakan perintah: /start
+2025-07-07 10:39:54 [INFO]: Pengguna 1348403944 berhasil terverifikasi dengan NIK 123456.
+2025-07-07 10:39:57 [INFO]: Titik A diterima dari pengguna 1348403944: -6.286345, 106.63669
+2025-07-07 10:39:59 [INFO]: Memproses permintaan peta dari chat ID: 1348403944 menggunakan Geoapify
+2025-07-07 10:40:01 [ERROR]: --- ERROR SAAT MENGHUBUNGI API ---
+2025-07-07 10:40:01 [ERROR]: Status: 400
+2025-07-07 10:40:01 [ERROR]: Data: {"statusCode":400,"error":"Bad Request","message":"\"value\" must contain at least one of [area, center, markers, geometries, geojson]"}
+2025-07-07 10:40:01 [ERROR]: Stack: AxiosError: Request failed with status code 400
+    at settle (D:\Project KP\node_modules\axios\dist\node\axios.cjs:2053:12)
+    at IncomingMessage.handleStreamEnd (D:\Project KP\node_modules\axios\dist\node\axios.cjs:3170:11)
+    at IncomingMessage.emit (node:events:530:35)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+    at Axios.request (D:\Project KP\node_modules\axios\dist\node\axios.cjs:4280:41)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async processAndSendMap (D:\Project KP\index.js:91:31)
+    at async handleNewLocation (D:\Project KP\index.js:156:9)
+    at async TelegramBot.<anonymous> (D:\Project KP\index.js:199:5)
+2025-07-07 10:40:01 [ERROR]: --- AKHIR ERROR ---
+2025-07-07 10:42:03 [INFO]: 🤖 Bot Peta telah berhasil dijalankan.
+2025-07-07 10:42:06 [INFO]: Pengguna 1348403944 menggunakan perintah: /start
+2025-07-07 10:42:10 [INFO]: Pengguna 1348403944 mencoba mendaftar dengan NIK: 123456
+2025-07-07 10:42:10 [INFO]: Pengguna 1348403944 berhasil terverifikasi dengan NIK 123456.
+2025-07-07 10:42:12 [INFO]: Titik A diterima dari pengguna 1348403944: -6.30294, 106.654368
+2025-07-07 10:42:15 [INFO]: Memproses permintaan peta dari chat ID: 1348403944 menggunakan Geoapify
+2025-07-07 10:42:16 [INFO]: Mengirim permintaan POST ke Static Map API Geoapify: https://maps.geoapify.com/v1/staticmap?style=osm-carto&width=800&height=600&marker=lonlat%3A106.654368%2C-6.30294%3Btype%3Aawesome%3Bicon%3Amap-marker%3Bcolor%3A%252300FF00%7Clonlat%3A106.65341%2C-6.302244%3Btype%3Aawesome%3Bicon%3Amap-marker%3Bcolor%3A%2523FF0000&apiKey=9e540be7aa4c4c439a0c0035d76cfbf6
+2025-07-07 10:42:26 [INFO]: Peta Geoapify berhasil dikirim ke chat ID: 1348403944
+2025-07-07 10:42:26 [INFO]: URL Google Maps interaktif dikirim ke chat ID: 1348403944
+2025-07-07 10:44:06 [INFO]: 🤖 Bot Peta telah berhasil dijalankan.
+2025-07-07 10:44:09 [INFO]: Pengguna 1348403944 menggunakan perintah: /start
+2025-07-07 10:44:13 [INFO]: Pengguna 1348403944 mencoba mendaftar dengan NIK: 123456
+2025-07-07 10:44:13 [INFO]: Pengguna 1348403944 berhasil terverifikasi dengan NIK 123456.
+2025-07-07 10:44:16 [INFO]: Titik A diterima dari pengguna 1348403944: -6.30294, 106.654368
+2025-07-07 10:44:19 [INFO]: Memproses permintaan peta dari chat ID: 1348403944 menggunakan Geoapify
+2025-07-07 10:44:19 [ERROR]: --- ERROR SAAT MENGHUBUNGI API ---
+2025-07-07 10:44:19 [ERROR]: Error: polyline is not defined
+2025-07-07 10:44:19 [ERROR]: Stack: ReferenceError: polyline is not defined
+    at processAndSendMap (D:\Project KP\index.js:113:29)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async handleNewLocation (D:\Project KP\index.js:201:9)
+    at async TelegramBot.<anonymous> (D:\Project KP\index.js:259:5)
+2025-07-07 10:44:19 [ERROR]: --- AKHIR ERROR ---
+2025-07-07 10:45:07 [INFO]: 🤖 Bot Peta telah berhasil dijalankan.
+2025-07-07 10:45:10 [INFO]: Pengguna 1348403944 menggunakan perintah: /start
+2025-07-07 10:45:15 [INFO]: Pengguna 1348403944 mencoba mendaftar dengan NIK: 123456
+2025-07-07 10:45:15 [INFO]: Pengguna 1348403944 berhasil terverifikasi dengan NIK 123456.
+2025-07-07 10:45:16 [INFO]: Titik A diterima dari pengguna 1348403944: -6.286345, 106.63669
+2025-07-07 10:45:18 [INFO]: Memproses permintaan peta dari chat ID: 1348403944 menggunakan Geoapify
+2025-07-07 10:45:19 [INFO]: Mengirim GET ke Static Map Geoapify: https://maps.geoapify.com/v1/staticmap?style=osm-carto&width=800&height=600&marker=lonlat%3A106.63669%2C-6.286345%3Btype%3Aawesome%3Bicon%3Amap-marker%3Bcolor%3A%252300FF00%7Clonlat%3A106.65341%2C-6.302244%3Btype%3Aawesome%3Bicon%3Amap-marker%3Bcolor%3A%2523FF0000&path=color%3A%2523FF0000%7Cweight%3A4%7Cgeometries%3Aencoded%7C%3F%3F&apiKey=9e540be7aa4c4c439a0c0035d76cfbf6
+2025-07-07 10:45:19 [ERROR]: --- ERROR SAAT MENGHUBUNGI API ---
+2025-07-07 10:45:19 [ERROR]: Status: 400
+2025-07-07 10:45:19 [ERROR]: Data: {"statusCode":400,"error":"Bad Request","message":"\"marker[0][3]\" does not match any of the allowed types"}
+2025-07-07 10:45:19 [ERROR]: Stack: AxiosError: Request failed with status code 400
+    at settle (D:\Project KP\node_modules\axios\dist\node\axios.cjs:2053:12)
+    at IncomingMessage.handleStreamEnd (D:\Project KP\node_modules\axios\dist\node\axios.cjs:3170:11)
+    at IncomingMessage.emit (node:events:530:35)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+    at Axios.request (D:\Project KP\node_modules\axios\dist\node\axios.cjs:4280:41)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async processAndSendMap (D:\Project KP\index.js:132:27)
+    at async handleNewLocation (D:\Project KP\index.js:202:9)
+    at async TelegramBot.<anonymous> (D:\Project KP\index.js:260:5)
+2025-07-07 10:45:19 [ERROR]: --- AKHIR ERROR ---
+2025-07-07 10:46:46 [INFO]: 🤖 Bot Peta telah berhasil dijalankan.
+2025-07-07 10:46:50 [INFO]: Pengguna 1348403944 menggunakan perintah: /start
+2025-07-07 10:46:54 [INFO]: Pengguna 1348403944 mencoba mendaftar dengan NIK: 123456
+2025-07-07 10:46:54 [INFO]: Pengguna 1348403944 berhasil terverifikasi dengan NIK 123456.
+2025-07-07 10:46:56 [INFO]: Titik A diterima dari pengguna 1348403944: -6.286345, 106.63669
+2025-07-07 10:46:58 [INFO]: Memproses permintaan peta dari chat ID: 1348403944 menggunakan Geoapify
+2025-07-07 10:46:59 [INFO]: Mengirim GET ke Static Map Geoapify: https://maps.geoapify.com/v1/staticmap?style=osm-carto&width=800&height=600&marker=lonlat%3A106.63669%2C-6.286345%3Btype%3Aawesome%3Bicon%3Amap-marker%3Bcolor%3A%2300FF00%7Clonlat%3A106.656001%2C-6.227699%3Btype%3Aawesome%3Bicon%3Amap-marker%3Bcolor%3A%23FF0000&path=color%3A%23FF0000%7Cweight%3A4%7Cgeometries%3Aencoded%7C%3F%3F&apiKey=9e540be7aa4c4c439a0c0035d76cfbf6
+2025-07-07 10:46:59 [ERROR]: --- ERROR SAAT MENGHUBUNGI API ---
+2025-07-07 10:46:59 [ERROR]: Status: 400
+2025-07-07 10:46:59 [ERROR]: Data: {"statusCode":400,"error":"Bad Request","message":"\"marker[0][3]\" does not match any of the allowed types"}
+2025-07-07 10:46:59 [ERROR]: Stack: AxiosError: Request failed with status code 400
+    at settle (D:\Project KP\node_modules\axios\dist\node\axios.cjs:2053:12)
+    at IncomingMessage.handleStreamEnd (D:\Project KP\node_modules\axios\dist\node\axios.cjs:3170:11)
+    at IncomingMessage.emit (node:events:530:35)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+    at Axios.request (D:\Project KP\node_modules\axios\dist\node\axios.cjs:4280:41)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async processAndSendMap (D:\Project KP\index.js:134:27)
+    at async handleNewLocation (D:\Project KP\index.js:204:9)
+    at async TelegramBot.<anonymous> (D:\Project KP\index.js:262:5)
+2025-07-07 10:46:59 [ERROR]: --- AKHIR ERROR ---
+2025-07-07 10:48:14 [INFO]: 🤖 Bot Peta telah berhasil dijalankan.
+2025-07-07 10:48:21 [INFO]: Pengguna 1348403944 menggunakan perintah: /start
+2025-07-07 10:48:29 [INFO]: Pengguna 1348403944 mencoba mendaftar dengan NIK: 123456
+2025-07-07 10:48:29 [INFO]: Pengguna 1348403944 berhasil terverifikasi dengan NIK 123456.
+2025-07-07 10:48:32 [INFO]: Titik A diterima dari pengguna 1348403944: -6.30294, 106.654368
+2025-07-07 10:48:34 [INFO]: Memproses permintaan peta dari chat ID: 1348403944 menggunakan Geoapify
+2025-07-07 10:48:35 [INFO]: Mengirim GET ke Static Map Geoapify: https://maps.geoapify.com/v1/staticmap?style=osm-carto&width=800&height=600&marker=lonlat%3A106.654368%2C-6.30294%3Btype%3Amaterial%3Bicon%3Acircle%3Bsize%3Ax-large%3Bcolor%3A%2300FF00%3Bwhitecircle%3Ano%7Clonlat%3A106.65341%2C-6.302244%3Btype%3Amaterial%3Bicon%3Acircle%3Bsize%3Ax-large%3Bcolor%3A%23FF0000%3Bwhitecircle%3Ano&path=color%3A%23FF0000%7Cweight%3A4%7Cgeometries%3Aencoded%7C%3F%3F&apiKey=9e540be7aa4c4c439a0c0035d76cfbf6
+2025-07-07 10:48:35 [ERROR]: --- ERROR SAAT MENGHUBUNGI API ---
+2025-07-07 10:48:35 [ERROR]: Status: 400
+2025-07-07 10:48:35 [ERROR]: Data: {"statusCode":400,"error":"Bad Request","message":"\"marker[0][4]\" does not match any of the allowed types"}
+2025-07-07 10:48:35 [ERROR]: Stack: AxiosError: Request failed with status code 400
+    at settle (D:\Project KP\node_modules\axios\dist\node\axios.cjs:2053:12)
+    at IncomingMessage.handleStreamEnd (D:\Project KP\node_modules\axios\dist\node\axios.cjs:3170:11)
+    at IncomingMessage.emit (node:events:530:35)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+    at Axios.request (D:\Project KP\node_modules\axios\dist\node\axios.cjs:4280:41)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async processAndSendMap (D:\Project KP\index.js:129:27)
+    at async handleNewLocation (D:\Project KP\index.js:195:9)
+    at async TelegramBot.<anonymous> (D:\Project KP\index.js:253:5)
+2025-07-07 10:48:35 [ERROR]: --- AKHIR ERROR ---
+2025-07-07 10:49:39 [INFO]: 🤖 Bot Peta telah berhasil dijalankan.
+2025-07-07 10:49:41 [INFO]: Pengguna 1348403944 menggunakan perintah: /start
+2025-07-07 10:49:45 [INFO]: Pengguna 1348403944 mencoba mendaftar dengan NIK: 123456
+2025-07-07 10:49:45 [INFO]: Pengguna 1348403944 berhasil terverifikasi dengan NIK 123456.
+2025-07-07 10:49:46 [INFO]: Titik A diterima dari pengguna 1348403944: -6.286345, 106.63669
+2025-07-07 10:49:47 [ERROR]: [Polling Error]: ETELEGRAM - ETELEGRAM: 409 Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-07-07 10:49:50 [INFO]: Memproses permintaan peta dari chat ID: 1348403944 menggunakan Geoapify
+2025-07-07 10:49:50 [INFO]: Mengirim GET ke Static Map Geoapify: https://maps.geoapify.com/v1/staticmap?style=osm-carto&width=800&height=600&marker=lonlat%3A106.63669%2C-6.286345%3Btype%3Amaterial%3Bicon%3Acircle%3Bsize%3Ax-large%3Bcolor%3A%2300FF00%3Bwhitecircle%3Ano%7Clonlat%3A106.706942%2C-6.274623%3Btype%3Amaterial%3Bicon%3Acircle%3Bsize%3Ax-large%3Bcolor%3A%23FF0000%3Bwhitecircle%3Ano&path=color%3A%23FF0000%7Cweight%3A4%7Cgeometries%3Aencoded%7C%3F%3F&apiKey=9e540be7aa4c4c439a0c0035d76cfbf6
+2025-07-07 10:49:51 [ERROR]: --- ERROR SAAT MENGHUBUNGI API ---
+2025-07-07 10:49:51 [ERROR]: Status: 400
+2025-07-07 10:49:51 [ERROR]: Data: {"statusCode":400,"error":"Bad Request","message":"\"marker[0][4]\" does not match any of the allowed types"}
+2025-07-07 10:49:51 [ERROR]: Stack: AxiosError: Request failed with status code 400
+    at settle (D:\Project KP\node_modules\axios\dist\node\axios.cjs:2053:12)
+    at IncomingMessage.handleStreamEnd (D:\Project KP\node_modules\axios\dist\node\axios.cjs:3170:11)
+    at IncomingMessage.emit (node:events:530:35)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+    at Axios.request (D:\Project KP\node_modules\axios\dist\node\axios.cjs:4280:41)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async processAndSendMap (D:\Project KP\index.js:129:27)
+    at async handleNewLocation (D:\Project KP\index.js:195:9)
+    at async TelegramBot.<anonymous> (D:\Project KP\index.js:253:5)
+2025-07-07 10:49:51 [ERROR]: --- AKHIR ERROR ---
+2025-07-07 10:49:55 [ERROR]: [Polling Error]: ETELEGRAM - ETELEGRAM: 409 Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-07-07 10:49:56 [ERROR]: [Polling Error]: ETELEGRAM - ETELEGRAM: 409 Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-07-07 10:50:04 [ERROR]: [Polling Error]: ETELEGRAM - ETELEGRAM: 409 Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-07-07 10:50:04 [ERROR]: [Polling Error]: ETELEGRAM - ETELEGRAM: 409 Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-07-07 10:50:12 [ERROR]: [Polling Error]: ETELEGRAM - ETELEGRAM: 409 Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-07-07 10:50:12 [ERROR]: [Polling Error]: ETELEGRAM - ETELEGRAM: 409 Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-07-07 10:50:20 [ERROR]: [Polling Error]: ETELEGRAM - ETELEGRAM: 409 Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-07-07 10:50:27 [INFO]: 🤖 Bot Peta telah berhasil dijalankan.
+2025-07-07 10:50:29 [INFO]: Pengguna 1348403944 menggunakan perintah: /start
+2025-07-07 10:50:34 [INFO]: Pengguna 1348403944 mencoba mendaftar dengan NIK: 123456
+2025-07-07 10:50:34 [INFO]: Pengguna 1348403944 berhasil terverifikasi dengan NIK 123456.
+2025-07-07 10:50:36 [INFO]: Titik A diterima dari pengguna 1348403944: -6.286345, 106.63669
+2025-07-07 10:50:39 [INFO]: Memproses permintaan peta dari chat ID: 1348403944 menggunakan Geoapify
+2025-07-07 10:50:40 [INFO]: Mengirim GET ke Static Map Geoapify: https://maps.geoapify.com/v1/staticmap?style=osm-carto&width=800&height=600&marker=lonlat%3A106.63669%2C-6.286345%3Btype%3Amaterial%3Bicon%3Acircle%3Bsize%3Ax-large%3Bcolor%3A%2300FF00%7Clonlat%3A106.656001%2C-6.227699%3Btype%3Amaterial%3Bicon%3Acircle%3Bsize%3Ax-large%3Bcolor%3A%23FF0000&path=color%3A%23FF0000%7Cweight%3A4%7Cgeometries%3Aencoded%7C%3F%3F&apiKey=9e540be7aa4c4c439a0c0035d76cfbf6
+2025-07-07 10:50:41 [ERROR]: --- ERROR SAAT MENGHUBUNGI API ---
+2025-07-07 10:50:41 [ERROR]: Status: 400
+2025-07-07 10:50:41 [ERROR]: Data: {"statusCode":400,"error":"Bad Request","message":"\"marker[0][4]\" does not match any of the allowed types"}
+2025-07-07 10:50:41 [ERROR]: Stack: AxiosError: Request failed with status code 400
+    at settle (D:\Project KP\node_modules\axios\dist\node\axios.cjs:2053:12)
+    at IncomingMessage.handleStreamEnd (D:\Project KP\node_modules\axios\dist\node\axios.cjs:3170:11)
+    at IncomingMessage.emit (node:events:530:35)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+    at Axios.request (D:\Project KP\node_modules\axios\dist\node\axios.cjs:4280:41)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async processAndSendMap (D:\Project KP\index.js:130:27)
+    at async handleNewLocation (D:\Project KP\index.js:196:9)
+    at async TelegramBot.<anonymous> (D:\Project KP\index.js:254:5)
+2025-07-07 10:50:41 [ERROR]: --- AKHIR ERROR ---
+2025-07-07 10:52:43 [INFO]: 🤖 Bot Peta telah berhasil dijalankan.
+2025-07-07 10:52:47 [INFO]: Pengguna 1348403944 menggunakan perintah: /start
+2025-07-07 10:54:27 [INFO]: 🤖 Bot Peta telah berhasil dijalankan.
+2025-07-07 10:54:29 [INFO]: Pengguna 1348403944 menggunakan perintah: /start
+2025-07-07 10:55:30 [INFO]: 🤖 Bot Peta telah berhasil dijalankan.
+2025-07-07 10:55:32 [INFO]: Pengguna 1348403944 menggunakan perintah: /start
+2025-07-07 10:56:14 [INFO]: 🤖 Bot Peta telah berhasil dijalankan.
+2025-07-07 10:56:16 [INFO]: Pengguna 1348403944 menggunakan perintah: /start
+2025-07-07 10:58:19 [INFO]: Pengguna 1348403944 menggunakan perintah: /start
+2025-07-07 10:58:24 [INFO]: 🤖 Bot Peta telah berhasil dijalankan.
+2025-07-07 10:58:25 [INFO]: Pengguna 1348403944 menggunakan perintah: /start
+2025-07-07 10:58:26 [ERROR]: Unhandled Rejection at:
+2025-07-07 11:00:09 [INFO]: Pengguna 1348403944 menggunakan perintah: /start
+2025-07-07 11:00:10 [ERROR]: Unhandled Rejection at:
+2025-07-07 11:00:18 [INFO]: 🤖 Bot Peta telah berhasil dijalankan.
+2025-07-07 11:00:20 [INFO]: Pengguna 1348403944 menggunakan perintah: /start
+2025-07-07 11:00:20 [ERROR]: Unhandled Rejection at:
+2025-07-07 11:02:13 [INFO]: 🤖 Bot Peta telah berhasil dijalankan.
+2025-07-07 11:02:16 [INFO]: Pengguna 1348403944 menggunakan perintah: /start
+2025-07-07 11:02:16 [ERROR]: Unhandled Rejection at:
+2025-07-07 11:02:49 [ERROR]: --- ERROR SAAT MENGHUBUNGI API ---
+2025-07-07 11:02:49 [ERROR]: Status: 400
+2025-07-07 11:02:49 [ERROR]: Data: {"type":"Buffer","data":[123,34,115,116,97,116,117,115,67,111,100,101,34,58,52,48,48,44,34,101,114,114,111,114,34,58,34,66,97,100,32,82,101,113,117,101,115,116,34,44,34,109,101,115,115,97,103,101,34,58,34,92,34,109,97,114,107,101,114,91,48,93,91,51,93,92,34,32,100,111,101,115,32,110,111,116,32,109,97,116,99,104,32,97,110,121,32,111,102,32,116,104,101,32,97,108,108,111,119,101,100,32,116,121,112,101,115,34,125]}
+2025-07-07 11:02:49 [ERROR]: Stack: AxiosError: Request failed with status code 400
+    at settle (D:\Project KP\node_modules\axios\dist\node\axios.cjs:2053:12)
+    at IncomingMessage.handleStreamEnd (D:\Project KP\node_modules\axios\dist\node\axios.cjs:3170:11)
+    at IncomingMessage.emit (node:events:530:35)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+    at Axios.request (D:\Project KP\node_modules\axios\dist\node\axios.cjs:4280:41)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async processAndSendMap (D:\Project KP\index.js:70:27)
+    at async handleNewLocation (D:\Project KP\index.js:114:5)
+2025-07-07 11:02:49 [ERROR]: --- AKHIR ERROR ---
+2025-07-07 11:04:21 [ERROR]: --- ERROR SAAT MENGHUBUNGI API ---
+2025-07-07 11:04:21 [ERROR]: Status: 400
+2025-07-07 11:04:21 [ERROR]: Data: {"type":"Buffer","data":[123,34,115,116,97,116,117,115,67,111,100,101,34,58,52,48,48,44,34,101,114,114,111,114,34,58,34,66,97,100,32,82,101,113,117,101,115,116,34,44,34,109,101,115,115,97,103,101,34,58,34,92,34,109,97,114,107,101,114,91,48,93,91,51,93,92,34,32,100,111,101,115,32,110,111,116,32,109,97,116,99,104,32,97,110,121,32,111,102,32,116,104,101,32,97,108,108,111,119,101,100,32,116,121,112,101,115,34,125]}
+2025-07-07 11:04:21 [ERROR]: Stack: AxiosError: Request failed with status code 400
+    at settle (D:\Project KP\node_modules\axios\dist\node\axios.cjs:2053:12)
+    at IncomingMessage.handleStreamEnd (D:\Project KP\node_modules\axios\dist\node\axios.cjs:3170:11)
+    at IncomingMessage.emit (node:events:530:35)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+    at Axios.request (D:\Project KP\node_modules\axios\dist\node\axios.cjs:4280:41)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async processAndSendMap (D:\Project KP\index.js:71:27)
+    at async handleNewLocation (D:\Project KP\index.js:115:5)
+2025-07-07 11:04:21 [ERROR]: --- AKHIR ERROR ---
+2025-07-07 11:05:23 [ERROR]: --- ERROR SAAT MENGHUBUNGI API ---
+2025-07-07 11:05:23 [ERROR]: Status: 400
+2025-07-07 11:05:23 [ERROR]: Data: {"type":"Buffer","data":[123,34,115,116,97,116,117,115,67,111,100,101,34,58,52,48,48,44,34,101,114,114,111,114,34,58,34,66,97,100,32,82,101,113,117,101,115,116,34,44,34,109,101,115,115,97,103,101,34,58,34,92,34,109,97,114,107,101,114,91,48,93,91,51,93,92,34,32,100,111,101,115,32,110,111,116,32,109,97,116,99,104,32,97,110,121,32,111,102,32,116,104,101,32,97,108,108,111,119,101,100,32,116,121,112,101,115,34,125]}
+2025-07-07 11:05:23 [ERROR]: Stack: AxiosError: Request failed with status code 400
+    at settle (D:\Project KP\node_modules\axios\dist\node\axios.cjs:2053:12)
+    at IncomingMessage.handleStreamEnd (D:\Project KP\node_modules\axios\dist\node\axios.cjs:3170:11)
+    at IncomingMessage.emit (node:events:530:35)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+    at Axios.request (D:\Project KP\node_modules\axios\dist\node\axios.cjs:4280:41)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async processAndSendMap (D:\Project KP\index.js:71:27)
+    at async handleNewLocation (D:\Project KP\index.js:115:5)
+2025-07-07 11:05:23 [ERROR]: --- AKHIR ERROR ---
+2025-07-07 11:10:39 [INFO]: 🤖 Bot Peta telah berhasil dijalankan.
+2025-07-07 11:10:55 [ERROR]: --- ERROR SAAT MENGHUBUNGI API ---
+2025-07-07 11:10:55 [ERROR]: Status: 400
+2025-07-07 11:10:55 [ERROR]: Data: {"type":"Buffer","data":[123,34,115,116,97,116,117,115,67,111,100,101,34,58,52,48,48,44,34,101,114,114,111,114,34,58,34,66,97,100,32,82,101,113,117,101,115,116,34,44,34,109,101,115,115,97,103,101,34,58,34,92,34,109,97,114,107,101,114,91,48,93,91,51,93,92,34,32,100,111,101,115,32,110,111,116,32,109,97,116,99,104,32,97,110,121,32,111,102,32,116,104,101,32,97,108,108,111,119,101,100,32,116,121,112,101,115,34,125]}
+2025-07-07 11:10:55 [ERROR]: Stack: AxiosError: Request failed with status code 400
+    at settle (D:\Project KP\node_modules\axios\dist\node\axios.cjs:2053:12)
+    at IncomingMessage.handleStreamEnd (D:\Project KP\node_modules\axios\dist\node\axios.cjs:3170:11)
+    at IncomingMessage.emit (node:events:530:35)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+    at Axios.request (D:\Project KP\node_modules\axios\dist\node\axios.cjs:4280:41)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async processAndSendMap (D:\Project KP\index.js:81:27)
+    at async handleNewLocation (D:\Project KP\index.js:125:5)
+2025-07-07 11:10:55 [ERROR]: --- AKHIR ERROR ---
+2025-07-07 11:12:01 [INFO]: 🤖 Bot Peta telah berhasil dijalankan.
+2025-07-07 11:12:14 [ERROR]: --- ERROR SAAT MENGHUBUNGI API ---
+2025-07-07 11:12:14 [ERROR]: Status: 400
+2025-07-07 11:12:14 [ERROR]: Data: {"type":"Buffer","data":[123,34,115,116,97,116,117,115,67,111,100,101,34,58,52,48,48,44,34,101,114,114,111,114,34,58,34,66,97,100,32,82,101,113,117,101,115,116,34,44,34,109,101,115,115,97,103,101,34,58,34,92,34,109,97,114,107,101,114,91,48,93,91,51,93,92,34,32,100,111,101,115,32,110,111,116,32,109,97,116,99,104,32,97,110,121,32,111,102,32,116,104,101,32,97,108,108,111,119,101,100,32,116,121,112,101,115,34,125]}
+2025-07-07 11:12:14 [ERROR]: Stack: AxiosError: Request failed with status code 400
+    at settle (D:\Project KP\node_modules\axios\dist\node\axios.cjs:2053:12)
+    at IncomingMessage.handleStreamEnd (D:\Project KP\node_modules\axios\dist\node\axios.cjs:3170:11)
+    at IncomingMessage.emit (node:events:530:35)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+    at Axios.request (D:\Project KP\node_modules\axios\dist\node\axios.cjs:4280:41)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async processAndSendMap (D:\Project KP\index.js:81:27)
+    at async handleNewLocation (D:\Project KP\index.js:125:5)
+2025-07-07 11:12:14 [ERROR]: --- AKHIR ERROR ---
+2025-07-07 11:13:16 [INFO]: 🤖 Bot Peta telah berhasil dijalankan.
+2025-07-07 11:13:33 [ERROR]: --- ERROR SAAT MENGHUBUNGI API ---
+2025-07-07 11:13:33 [ERROR]: Status: 400
+2025-07-07 11:13:33 [ERROR]: Data: {"type":"Buffer","data":[123,34,115,116,97,116,117,115,67,111,100,101,34,58,52,48,48,44,34,101,114,114,111,114,34,58,34,66,97,100,32,82,101,113,117,101,115,116,34,44,34,109,101,115,115,97,103,101,34,58,34,92,34,109,97,114,107,101,114,91,48,93,91,51,93,92,34,32,100,111,101,115,32,110,111,116,32,109,97,116,99,104,32,97,110,121,32,111,102,32,116,104,101,32,97,108,108,111,119,101,100,32,116,121,112,101,115,34,125]}
+2025-07-07 11:13:33 [ERROR]: Stack: AxiosError: Request failed with status code 400
+    at settle (D:\Project KP\node_modules\axios\dist\node\axios.cjs:2053:12)
+    at IncomingMessage.handleStreamEnd (D:\Project KP\node_modules\axios\dist\node\axios.cjs:3170:11)
+    at IncomingMessage.emit (node:events:530:35)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+    at Axios.request (D:\Project KP\node_modules\axios\dist\node\axios.cjs:4280:41)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async processAndSendMap (D:\Project KP\index.js:82:27)
+    at async handleNewLocation (D:\Project KP\index.js:126:5)
+2025-07-07 11:13:33 [ERROR]: --- AKHIR ERROR ---
+2025-07-07 11:13:47 [INFO]: 🤖 Bot Peta telah berhasil dijalankan.
+2025-07-07 11:14:08 [ERROR]: --- ERROR SAAT MENGHUBUNGI API ---
+2025-07-07 11:14:08 [ERROR]: Status: 400
+2025-07-07 11:14:08 [ERROR]: Data: {"type":"Buffer","data":[123,34,115,116,97,116,117,115,67,111,100,101,34,58,52,48,48,44,34,101,114,114,111,114,34,58,34,66,97,100,32,82,101,113,117,101,115,116,34,44,34,109,101,115,115,97,103,101,34,58,34,92,34,109,97,114,107,101,114,91,48,93,91,50,93,92,34,32,100,111,101,115,32,110,111,116,32,109,97,116,99,104,32,97,110,121,32,111,102,32,116,104,101,32,97,108,108,111,119,101,100,32,116,121,112,101,115,34,125]}
+2025-07-07 11:16:33 [INFO]: 🤖 Bot Peta telah berhasil dijalankan.
+2025-07-07 11:16:50 [INFO]: Memproses permintaan peta dari chat ID: 1348403944
+2025-07-07 11:16:52 [ERROR]: --- ERROR SAAT MENGHUBUNGI API ---
+2025-07-07 11:16:52 [ERROR]: Status: 400
+2025-07-07 11:16:52 [ERROR]: Data: {"statusCode":400,"error":"Bad Request","message":"\"marker[0][1]\" does not match any of the allowed types"}
+2025-07-07 11:17:30 [INFO]: 🤖 Bot Peta telah berhasil dijalankan.
+2025-07-07 11:17:46 [INFO]: Memproses permintaan peta dari chat ID: 1348403944
+2025-07-07 11:17:47 [ERROR]: --- ERROR SAAT MENGHUBUNGI API ---
+2025-07-07 11:17:47 [ERROR]: Status: 400
+2025-07-07 11:17:47 [ERROR]: Data: {"statusCode":400,"error":"Bad Request","message":"\"marker[0][2]\" does not match any of the allowed types"}
+2025-07-07 11:20:35 [INFO]: 🤖 Bot Peta telah berhasil dijalankan.
+2025-07-07 11:20:47 [INFO]: Memproses permintaan peta dari chat ID: 1348403944
+2025-07-07 11:20:49 [ERROR]: --- ERROR SAAT MENGHUBUNGI API ---
+2025-07-07 11:20:49 [ERROR]: Status: 400
+2025-07-07 11:20:49 [ERROR]: Data: {"statusCode":400,"error":"Bad Request","message":"\"marker[0][3]\" does not match any of the allowed types"}
+2025-07-07 11:21:40 [INFO]: 🤖 Bot Peta telah berhasil dijalankan.
+2025-07-07 11:21:49 [INFO]: Memproses permintaan peta dari chat ID: 1348403944
+2025-07-07 11:21:51 [ERROR]: --- ERROR SAAT MENGHUBUNGI API ---
+2025-07-07 11:21:51 [ERROR]: Status: 400
+2025-07-07 11:21:51 [ERROR]: Data: {"statusCode":400,"error":"Bad Request","message":"\"marker[0][3]\" does not match any of the allowed types"}
+2025-07-07 11:23:08 [INFO]: 🤖 Bot Peta telah berhasil dijalankan.
+2025-07-07 11:23:17 [INFO]: Memproses peta untuk chat ID: 1348403944
+2025-07-07 11:23:18 [INFO]: Mengirim request POST ke Static Map API...
+2025-07-07 11:23:19 [ERROR]: --- ERROR SAAT MENGHUBUNGI API ---
+2025-07-07 11:23:19 [ERROR]: Status: 400
+2025-07-07 11:23:19 [ERROR]: Data: {"statusCode":400,"error":"Bad Request","message":"\"value\" must contain at least one of [area, center, markers, geometries, geojson]"}
+2025-07-07 11:24:34 [INFO]: 🤖 Bot Peta telah berhasil dijalankan.
+2025-07-07 11:24:48 [INFO]: Memproses peta untuk chat ID: 1348403944
+2025-07-07 11:24:48 [INFO]: Mengirim request POST ke Static Map API...
+2025-07-07 11:24:57 [INFO]: Peta berhasil dikirim ke chat ID: 1348403944
+2025-07-07 11:26:43 [INFO]: 🤖 Bot Peta telah berhasil dijalankan.
+2025-07-07 11:26:59 [INFO]: Memproses peta untuk chat ID: 1348403944
+2025-07-07 11:27:00 [INFO]: Mengirim request POST ke Static Map API...
+2025-07-07 11:27:01 [ERROR]: --- ERROR SAAT MENGHUBUNGI API ---
+2025-07-07 11:27:01 [ERROR]: Status: 401
+2025-07-07 11:27:01 [ERROR]: Data: {"statusCode":401,"error":"Unauthorized","message":"Invalid apiKey"}
+2025-07-07 11:45:48 [INFO]: 🤖 Bot Peta telah berhasil dijalankan.
+2025-07-07 11:45:58 [INFO]: Memproses permintaan peta dari chat ID: 1348403944
+2025-07-07 11:45:59 [ERROR]: --- ERROR SAAT MENGHUBUNGI API ---
+2025-07-07 11:45:59 [ERROR]: Status: 400
+2025-07-07 11:45:59 [ERROR]: Data: {"statusCode":400,"error":"Bad Request","message":"\"marker[0][3]\" does not match any of the allowed types"}
+2025-07-10 23:06:27 [INFO]: 🤖 Bot Pemetaan siap beroperasi pada
+2025-07-10 23:11:05 [INFO]: User: Kahfi (@kahfifauzan) - ID: 1348403944 - Action: Text message received - Details: {"text":"/start"}
+2025-07-10 23:11:05 [INFO]: User: Kahfi (@kahfifauzan) - ID: 1348403944 - Action: Help command
+2025-07-10 23:11:09 [INFO]: User: Kahfi (@kahfifauzan) - ID: 1348403944 - Action: Text message received - Details: {"text":"/register 123456"}
+2025-07-10 23:11:09 [INFO]: User: Kahfi (@kahfifauzan) - ID: 1348403944 - Action: Register command - Details: {"nik":"123456"}
+2025-07-10 23:11:14 [INFO]: User: Kahfi (@kahfifauzan) - ID: 1348403944 - Action: Text message received - Details: {}
+2025-07-10 23:11:14 [INFO]: User: Kahfi (@kahfifauzan) - ID: 1348403944 - Action: Location received - Details: {"latitude":-6.169972,"longitude":106.625076}
+2025-07-10 23:11:17 [INFO]: User: Kahfi (@kahfifauzan) - ID: 1348403944 - Action: Text message received - Details: {"text":"/new"}
+2025-07-10 23:11:17 [INFO]: User: Kahfi (@kahfifauzan) - ID: 1348403944 - Action: New session command
+2025-07-10 23:11:20 [INFO]: User: Kahfi (@kahfifauzan) - ID: 1348403944 - Action: Text message received - Details: {"text":"tes"}
+2025-07-10 23:11:21 [INFO]: User: Kahfi (@kahfifauzan) - ID: 1348403944 - Action: Text message received - Details: {"text":"oke"}
+2025-07-10 23:11:29 [INFO]: User: Kahfi (@kahfifauzan) - ID: 1348403944 - Action: Text message received - Details: {}
+2025-07-10 23:11:29 [INFO]: User: Kahfi (@kahfifauzan) - ID: 1348403944 - Action: Location received - Details: {"latitude":-6.127336,"longitude":106.526865}
+2025-07-10 23:11:30 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Callback query received - Details: {"callbackData":"asset_trench"}
+2025-07-10 23:11:30 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Asset selection - Details: {"assetType":"trench"}
+2025-07-10 23:11:32 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Callback query received - Details: {"callbackData":"trench_red"}
+2025-07-10 23:11:32 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Trench type selection - Details: {"trenchType":"trench_red"}
+2025-07-10 23:11:35 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Callback query received - Details: {"callbackData":"asset_done"}
+2025-07-10 23:11:35 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Asset selection - Details: {"assetType":"done"}
+2025-07-10 23:11:37 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Callback query received - Details: {"callbackData":"line_trench_red"}
+2025-07-10 23:11:37 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Line type selection - Details: {"lineType":"trench"}
+2025-07-10 23:11:42 [INFO]: User: Kahfi (@kahfifauzan) - ID: 1348403944 - Action: Text message received - Details: {}
+2025-07-10 23:11:42 [INFO]: User: Kahfi (@kahfifauzan) - ID: 1348403944 - Action: Location received - Details: {"latitude":-6.1856,"longitude":106.520177}
+2025-07-10 23:11:44 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Callback query received - Details: {"callbackData":"asset_hh_pit"}
+2025-07-10 23:11:44 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Asset selection - Details: {"assetType":"hh"}
+2025-07-10 23:11:46 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Callback query received - Details: {"callbackData":"asset_hh_new"}
+2025-07-10 23:11:46 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Asset selection - Details: {"assetType":"hh"}
+2025-07-10 23:11:48 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Callback query received - Details: {"callbackData":"asset_odp"}
+2025-07-10 23:11:48 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Asset selection - Details: {"assetType":"odp"}
+2025-07-10 23:11:49 [INFO]: User: Kahfi (@kahfifauzan) - ID: 1348403944 - Action: Text message received - Details: {"text":"odp123"}
+2025-07-10 23:11:51 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Callback query received - Details: {"callbackData":"asset_odc"}
+2025-07-10 23:11:51 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Asset selection - Details: {"assetType":"odc"}
+2025-07-10 23:11:52 [INFO]: User: Kahfi (@kahfifauzan) - ID: 1348403944 - Action: Text message received - Details: {"text":"312"}
+2025-07-10 23:11:54 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Callback query received - Details: {"callbackData":"asset_te"}
+2025-07-10 23:11:54 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Asset selection - Details: {"assetType":"te"}
+2025-07-10 23:11:55 [INFO]: User: Kahfi (@kahfifauzan) - ID: 1348403944 - Action: Text message received - Details: {"text":"132"}
+2025-07-10 23:11:56 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Callback query received - Details: {"callbackData":"asset_tb"}
+2025-07-10 23:11:56 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Asset selection - Details: {"assetType":"tb"}
+2025-07-10 23:11:57 [INFO]: User: Kahfi (@kahfifauzan) - ID: 1348403944 - Action: Text message received - Details: {"text":"132"}
+2025-07-10 23:11:59 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Callback query received - Details: {"callbackData":"asset_done"}
+2025-07-10 23:11:59 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Asset selection - Details: {"assetType":"done"}
+2025-07-10 23:12:01 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Callback query received - Details: {"callbackData":"line_aerial"}
+2025-07-10 23:12:01 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Line type selection - Details: {"lineType":"aerial"}
+2025-07-10 23:12:04 [INFO]: User: Kahfi (@kahfifauzan) - ID: 1348403944 - Action: Text message received - Details: {}
+2025-07-10 23:12:04 [INFO]: User: Kahfi (@kahfifauzan) - ID: 1348403944 - Action: Location received - Details: {"latitude":-6.178046,"longitude":106.631758}
+2025-07-10 23:12:06 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Callback query received - Details: {"callbackData":"asset_hh_pit"}
+2025-07-10 23:12:06 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Asset selection - Details: {"assetType":"hh"}
+2025-07-10 23:12:07 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Callback query received - Details: {"callbackData":"asset_done"}
+2025-07-10 23:12:07 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Asset selection - Details: {"assetType":"done"}
+2025-07-10 23:12:09 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Callback query received - Details: {"callbackData":"line_trench_yellow"}
+2025-07-10 23:12:09 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Line type selection - Details: {"lineType":"trench"}
+2025-07-10 23:12:13 [INFO]: User: Kahfi (@kahfifauzan) - ID: 1348403944 - Action: Text message received - Details: {}
+2025-07-10 23:12:13 [INFO]: User: Kahfi (@kahfifauzan) - ID: 1348403944 - Action: Location received - Details: {"latitude":-6.167958,"longitude":106.629093}
+2025-07-10 23:12:15 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Callback query received - Details: {"callbackData":"asset_odp"}
+2025-07-10 23:12:15 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Asset selection - Details: {"assetType":"odp"}
+2025-07-10 23:12:16 [INFO]: User: Kahfi (@kahfifauzan) - ID: 1348403944 - Action: Text message received - Details: {"text":"123"}
+2025-07-10 23:12:17 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Callback query received - Details: {"callbackData":"asset_hh_new"}
+2025-07-10 23:12:17 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Asset selection - Details: {"assetType":"hh"}
+2025-07-10 23:12:18 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Callback query received - Details: {"callbackData":"asset_done"}
+2025-07-10 23:12:18 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Asset selection - Details: {"assetType":"done"}
+2025-07-10 23:12:21 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Callback query received - Details: {"callbackData":"line_trench_red"}
+2025-07-10 23:12:21 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Line type selection - Details: {"lineType":"trench"}
+2025-07-10 23:12:23 [INFO]: User: Kahfi (@kahfifauzan) - ID: 1348403944 - Action: Text message received - Details: {}
+2025-07-10 23:12:23 [INFO]: User: Kahfi (@kahfifauzan) - ID: 1348403944 - Action: Location received - Details: {"latitude":-6.127336,"longitude":106.526865}
+2025-07-10 23:12:25 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Callback query received - Details: {"callbackData":"asset_hh_new"}
+2025-07-10 23:12:25 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Asset selection - Details: {"assetType":"hh"}
+2025-07-10 23:12:26 [INFO]: User: Kahfi (@kahfifauzan) - ID: 1348403944 - Action: Text message received - Details: {"text":"132"}
+2025-07-10 23:12:28 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Callback query received - Details: {"callbackData":"asset_done"}
+2025-07-10 23:12:28 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Asset selection - Details: {"assetType":"done"}
+2025-07-10 23:12:30 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Callback query received - Details: {"callbackData":"line_trench_yellow"}
+2025-07-10 23:12:30 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Line type selection - Details: {"lineType":"trench"}
+2025-07-10 23:12:32 [INFO]: User: Kahfi (@kahfifauzan) - ID: 1348403944 - Action: Text message received - Details: {"text":"/done"}
+2025-07-10 23:12:32 [INFO]: User: Kahfi (@kahfifauzan) - ID: 1348403944 - Action: Done command
+2025-07-10 23:12:32 [INFO]: User:  (@N/A) - ID: 1348403944 - Action: Processing map and KML
+2025-07-10 23:12:33 [WARN]: [WARNING] Tidak ada warna untuk lineType: trench pada titik 0. Menggunakan default kuning.
+2025-07-10 23:12:33 [WARN]: [WARNING] Tidak ada warna untuk lineType: trench pada titik 2. Menggunakan default kuning.
+2025-07-10 23:12:33 [WARN]: [WARNING] Tidak ada warna untuk lineType: trench pada titik 3. Menggunakan default kuning.
+2025-07-10 23:12:41 [WARN]: [WARNING] Tidak ada warna untuk lineType: trench pada titik 0. Menggunakan default kuning.
+2025-07-10 23:12:41 [WARN]: [WARNING] Tidak ada warna untuk lineType: trench pada titik 2. Menggunakan default kuning.
+2025-07-10 23:12:41 [WARN]: [WARNING] Tidak ada warna untuk lineType: trench pada titik 3. Menggunakan default kuning.
+2025-07-10 23:16:47 [INFO]: 🤖 Bot Pemetaan siap beroperasi pada
+2025-07-10 23:17:15 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Callback query - Details: {"data":"asset_tb"}
+2025-07-10 23:17:19 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Callback query - Details: {"data":"asset_te"}
+2025-07-10 23:17:22 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Callback query - Details: {"data":"asset_odp"}
+2025-07-10 23:17:25 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Callback query - Details: {"data":"asset_odc"}
+2025-07-10 23:17:27 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Callback query - Details: {"data":"asset_hh_pit"}
+2025-07-10 23:17:29 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Callback query - Details: {"data":"asset_hh_new"}
+2025-07-10 23:17:30 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Callback query - Details: {"data":"asset_done"}
+2025-07-10 23:17:33 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Callback query - Details: {"data":"line_aerial"}
+2025-07-10 23:17:38 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Callback query - Details: {"data":"asset_hh_new"}
+2025-07-10 23:17:39 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Callback query - Details: {"data":"asset_done"}
+2025-07-10 23:17:42 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Callback query - Details: {"data":"line_trench_yellow"}
+2025-07-10 23:17:51 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Callback query - Details: {"data":"asset_hh_new"}
+2025-07-10 23:17:53 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Callback query - Details: {"data":"asset_done"}
+2025-07-10 23:17:55 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Callback query - Details: {"data":"line_trench_yellow"}
+2025-07-10 23:17:58 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Callback query - Details: {"data":"asset_hh_pit"}
+2025-07-10 23:18:00 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Callback query - Details: {"data":"asset_done"}
+2025-07-10 23:18:02 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Callback query - Details: {"data":"line_trench_red"}
+2025-07-10 23:18:07 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Callback query - Details: {"data":"asset_hh_pit"}
+2025-07-10 23:18:08 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Callback query - Details: {"data":"asset_done"}
+2025-07-10 23:18:10 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Callback query - Details: {"data":"line_trench_yellow"}
+2025-07-10 23:18:14 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Callback query - Details: {"data":"asset_done"}
+2025-07-10 23:18:16 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Callback query - Details: {"data":"asset_odc"}
+2025-07-10 23:18:20 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Callback query - Details: {"data":"asset_te"}
+2025-07-10 23:18:22 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Callback query - Details: {"data":"asset_done"}
+2025-07-10 23:18:24 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Callback query - Details: {"data":"line_aerial"}
+2025-07-10 23:18:28 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Callback query - Details: {"data":"asset_hh_new"}
+2025-07-10 23:18:30 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Callback query - Details: {"data":"asset_done"}
+2025-07-10 23:18:32 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Callback query - Details: {"data":"line_trench_yellow"}
+2025-07-10 23:18:34 [INFO]: User:  (@N/A) - ID: 1348403944 - Action: Processing map and KML
+2025-07-10 23:18:34 [ERROR]: [ERROR] Gagal memproses hasil: Request failed with status code 400
+2025-07-10 23:20:03 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Callback query - Details: {"data":"asset_hh_new"}
+2025-07-10 23:20:04 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Callback query - Details: {"data":"asset_remove"}
+2025-07-10 23:20:07 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Callback query - Details: {"data":"asset_done"}
+2025-07-10 23:20:08 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Callback query - Details: {"data":"asset_odp"}
+2025-07-10 23:20:09 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Callback query - Details: {"data":"asset_done"}
+2025-07-10 23:22:46 [INFO]: 🤖 Bot Pemetaan siap beroperasi pada
+2025-07-10 23:23:10 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Callback query - Details: {"data":"asset_odp"}
+2025-07-10 23:23:14 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Callback query - Details: {"data":"asset_odc"}
+2025-07-10 23:23:18 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Callback query - Details: {"data":"asset_done"}
+2025-07-10 23:23:19 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Callback query - Details: {"data":"line_aerial"}
+2025-07-10 23:23:24 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Callback query - Details: {"data":"asset_tb"}
+2025-07-10 23:23:26 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Callback query - Details: {"data":"asset_te"}
+2025-07-10 23:23:29 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Callback query - Details: {"data":"asset_done"}
+2025-07-10 23:23:32 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Callback query - Details: {"data":"line_trench_yellow"}
+2025-07-10 23:23:36 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Callback query - Details: {"data":"asset_trench"}
+2025-07-10 23:23:38 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Callback query - Details: {"data":"line_aerial"}
+2025-07-10 23:23:43 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Callback query - Details: {"data":"asset_trench"}
+2025-07-10 23:23:44 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Callback query - Details: {"data":"line_trench_yellow"}
+2025-07-10 23:23:50 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Callback query - Details: {"data":"asset_trench"}
+2025-07-10 23:23:51 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Callback query - Details: {"data":"line_trench_red"}
+2025-07-10 23:23:56 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Callback query - Details: {"data":"asset_odc"}
+2025-07-10 23:24:01 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Callback query - Details: {"data":"asset_hh_new"}
+2025-07-10 23:24:03 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Callback query - Details: {"data":"asset_hh_pit"}
+2025-07-10 23:24:04 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Callback query - Details: {"data":"asset_done"}
+2025-07-10 23:24:05 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Callback query - Details: {"data":"line_trench_yellow"}
+2025-07-10 23:24:10 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Callback query - Details: {"data":"asset_hh_new"}
+2025-07-10 23:24:13 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Callback query - Details: {"data":"asset_done"}
+2025-07-10 23:24:16 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Callback query - Details: {"data":"line_trench_red"}
+2025-07-10 23:24:20 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Callback query - Details: {"data":"asset_te"}
+2025-07-10 23:24:23 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Callback query - Details: {"data":"asset_done"}
+2025-07-10 23:24:26 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Callback query - Details: {"data":"line_trench_yellow"}
+2025-07-10 23:24:28 [INFO]: User:  (@N/A) - ID: 1348403944 - Action: Processing map and KML
+2025-07-10 23:24:36 [ERROR]: [ERROR] Gagal memproses hasil: Cannot read properties of undefined (reading 'name')
+2025-07-10 23:27:48 [INFO]: 🤖 Bot Pemetaan siap beroperasi pada
+2025-07-10 23:28:23 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Callback query - Details: {"data":"asset_tb"}
+2025-07-10 23:28:26 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Callback query - Details: {"data":"asset_te"}
+2025-07-10 23:28:29 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Callback query - Details: {"data":"asset_tb"}
+2025-07-10 23:28:30 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Callback query - Details: {"data":"asset_odp"}
+2025-07-10 23:28:33 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Callback query - Details: {"data":"asset_odc"}
+2025-07-10 23:28:37 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Callback query - Details: {"data":"asset_done"}
+2025-07-10 23:28:39 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Callback query - Details: {"data":"line_aerial"}
+2025-07-10 23:28:45 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Callback query - Details: {"data":"asset_hh_pit"}
+2025-07-10 23:28:47 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Callback query - Details: {"data":"asset_hh_new"}
+2025-07-10 23:28:49 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Callback query - Details: {"data":"asset_done"}
+2025-07-10 23:28:50 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Callback query - Details: {"data":"line_trench_yellow"}
+2025-07-10 23:28:56 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Callback query - Details: {"data":"asset_odp"}
+2025-07-10 23:28:59 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Callback query - Details: {"data":"asset_done"}
+2025-07-10 23:29:00 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Callback query - Details: {"data":"line_trench_red"}
+2025-07-10 23:29:05 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Callback query - Details: {"data":"asset_odc"}
+2025-07-10 23:29:07 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Callback query - Details: {"data":"asset_done"}
+2025-07-10 23:29:10 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Callback query - Details: {"data":"line_trench_red"}
+2025-07-10 23:29:12 [INFO]: User:  (@N/A) - ID: 1348403944 - Action: Processing map and KML
+2025-07-10 23:29:12 [ERROR]: [ERROR] Gagal memproses hasil: Request failed with status code 400
+2025-07-10 23:33:42 [INFO]: 🤖 Bot Pemetaan siap beroperasi pada
+2025-07-10 23:35:15 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Callback query - Details: {"data":"asset_tb"}
+2025-07-10 23:35:19 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Callback query - Details: {"data":"asset_te"}
+2025-07-10 23:35:22 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Callback query - Details: {"data":"asset_odp"}
+2025-07-10 23:35:24 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Callback query - Details: {"data":"asset_odc"}
+2025-07-10 23:35:27 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Callback query - Details: {"data":"asset_hh_pit"}
+2025-07-10 23:35:28 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Callback query - Details: {"data":"asset_hh_new"}
+2025-07-10 23:35:29 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Callback query - Details: {"data":"asset_done"}
+2025-07-10 23:35:31 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Callback query - Details: {"data":"line_trench_yellow"}
+2025-07-10 23:40:36 [INFO]: 🤖 Bot Pemetaan siap beroperasi pada
+2025-07-10 23:40:56 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Callback query - Details: {"data":"asset_tb"}
+2025-07-10 23:44:48 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Callback query - Details: {"data":"asset_te"}
+2025-07-10 23:45:07 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Callback query - Details: {"data":"asset_odp"}
+2025-07-10 23:45:11 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Callback query - Details: {"data":"asset_odc"}
+2025-07-10 23:45:41 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Callback query - Details: {"data":"asset_done"}
+2025-07-10 23:45:44 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Callback query - Details: {"data":"line_aerial"}
+2025-07-10 23:45:51 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Callback query - Details: {"data":"asset_hh_pit"}
+2025-07-10 23:45:52 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Callback query - Details: {"data":"asset_done"}
+2025-07-10 23:46:00 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Callback query - Details: {"data":"line_trench_red"}
+2025-07-10 23:47:28 [INFO]: 🤖 Bot Pemetaan siap beroperasi pada
+2025-07-10 23:52:20 [INFO]: 🤖 Bot Pemetaan siap beroperasi pada
+2025-07-11 00:00:47 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Callback query - Details: {"data":"asset_remove"}
+2025-07-11 00:00:49 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Callback query - Details: {"data":"asset_done"}
+2025-07-11 00:00:51 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Callback query - Details: {"data":"asset_te"}
+2025-07-11 00:00:54 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Callback query - Details: {"data":"asset_done"}
+2025-07-11 00:02:57 [INFO]: 🤖 Bot Pemetaan siap beroperasi pada
+2025-07-11 00:05:39 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Callback query - Details: {"data":"line_trench_yellow"}
+2025-07-11 00:05:42 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Callback query - Details: {"data":"line_aerial"}
+2025-07-11 00:10:25 [ERROR]: [ERROR] Polling error: EFATAL: Error: read ECONNRESET
+2025-07-11 00:10:26 [ERROR]: [ERROR] Polling error: EFATAL: AggregateError
+2025-07-11 00:18:26 [INFO]: 🤖 Bot Pemetaan siap beroperasi pada
+2025-07-11 00:18:47 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Callback query - Details: {"data":"asset_tb"}
+2025-07-11 00:18:52 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Callback query - Details: {"data":"asset_te"}
+2025-07-11 00:19:35 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Callback query - Details: {"data":"asset_tb"}
+2025-07-11 00:19:39 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Callback query - Details: {"data":"asset_te"}
+2025-07-11 00:19:40 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Callback query - Details: {"data":"asset_odp"}
+2025-07-11 00:19:42 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Callback query - Details: {"data":"asset_odc"}
+2025-07-11 00:19:47 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Callback query - Details: {"data":"asset_done"}
+2025-07-11 00:19:51 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Callback query - Details: {"data":"line_aerial"}
+2025-07-11 00:21:11 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Callback query - Details: {"data":"asset_trench_yellow"}
+2025-07-11 00:21:14 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Callback query - Details: {"data":"asset_done"}
+2025-07-11 00:21:18 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Callback query - Details: {"data":"line_trench_yellow"}
+2025-07-11 00:21:23 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Callback query - Details: {"data":"asset_trench_red"}
+2025-07-11 00:21:24 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Callback query - Details: {"data":"asset_done"}
+2025-07-11 00:21:26 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Callback query - Details: {"data":"line_trench_red"}
+2025-07-11 00:21:31 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Callback query - Details: {"data":"asset_hh_new"}
+2025-07-11 00:21:32 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Callback query - Details: {"data":"asset_hh_pit"}
+2025-07-11 00:21:33 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Callback query - Details: {"data":"asset_done"}
+2025-07-11 00:21:34 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Callback query - Details: {"data":"line_aerial"}
+2025-07-11 00:21:39 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Callback query - Details: {"data":"asset_aerial_blue"}
+2025-07-11 00:21:41 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Callback query - Details: {"data":"asset_done"}
+2025-07-11 00:21:43 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Callback query - Details: {"data":"line_aerial_blue"}
+2025-07-11 00:21:45 [INFO]: User:  (@N/A) - ID: 1348403944 - Action: Processing map and KML
+2025-07-11 00:21:51 [ERROR]: [ERROR] Gagal memproses hasil: ETELEGRAM: 400 Bad Request: can't parse entities: Can't find end of the entity starting at byte offset 580
+2025-07-11 00:27:02 [INFO]: 🤖 Bot Pemetaan siap beroperasi pada
+2025-07-11 00:27:05 [ERROR]: [ERROR] Polling error: EFATAL: AggregateError
+2025-07-11 00:27:09 [ERROR]: [ERROR] Polling error: EFATAL: AggregateError
+2025-07-11 00:27:20 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Callback query - Details: {"data":"asset_tb"}
+2025-07-11 00:27:22 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Callback query - Details: {"data":"asset_te"}
+2025-07-11 00:27:25 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Callback query - Details: {"data":"asset_odp"}
+2025-07-11 00:27:27 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Callback query - Details: {"data":"asset_odc"}
+2025-07-11 00:27:30 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Callback query - Details: {"data":"asset_hh_pit"}
+2025-07-11 00:27:37 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Callback query - Details: {"data":"asset_hh_new"}
+2025-07-11 00:27:37 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Callback query - Details: {"data":"asset_hh_pit"}
+2025-07-11 00:27:39 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Callback query - Details: {"data":"asset_trench_red"}
+2025-07-11 00:27:41 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Callback query - Details: {"data":"asset_trench_yellow"}
+2025-07-11 00:32:56 [INFO]: 🤖 Bot Pemetaan siap beroperasi pada
+2025-07-11 00:33:00 [ERROR]: [ERROR] Polling error: EFATAL: AggregateError
+2025-07-11 00:33:56 [ERROR]: [ERROR] Polling error: EFATAL: AggregateError
+2025-07-11 00:34:08 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Callback query - Details: {"data":"asset_tb"}
+2025-07-11 00:34:10 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Callback query - Details: {"data":"asset_te"}
+2025-07-11 00:34:13 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Callback query - Details: {"data":"asset_odp"}
+2025-07-11 00:34:16 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Callback query - Details: {"data":"asset_odc"}
+2025-07-11 00:34:29 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Callback query - Details: {"data":"asset_hh_pit"}
+2025-07-11 00:34:30 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Callback query - Details: {"data":"asset_hh_new"}
+2025-07-11 00:36:03 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Callback query - Details: {"data":"asset_hh_pit"}
+2025-07-11 00:36:06 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Callback query - Details: {"data":"asset_hh_new"}
+2025-07-11 00:36:12 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Callback query - Details: {"data":"asset_trench_red"}
+2025-07-11 00:36:13 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Callback query - Details: {"data":"asset_trench_yellow"}
+2025-07-11 00:36:14 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Callback query - Details: {"data":"asset_done"}
+2025-07-11 00:41:04 [INFO]: 🤖 Bot Pemetaan siap beroperasi pada
+2025-07-11 00:41:04 [ERROR]: [ERROR] Polling error: EFATAL: AggregateError
+2025-07-11 00:41:29 [ERROR]: [ERROR] Polling error: EFATAL: AggregateError
+2025-07-11 00:43:03 [INFO]: 🤖 Bot Pemetaan siap beroperasi pada
+2025-07-11 00:43:03 [ERROR]: [ERROR] Polling error: EFATAL: AggregateError
+2025-07-11 00:43:03 [WARN]: Polling error detected (EFATAL: AggregateError). Attempting to recover...
+2025-07-11 00:43:39 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Callback query - Details: {"data":"asset_tb"}
+2025-07-11 00:43:41 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Callback query - Details: {"data":"asset_te"}
+2025-07-11 00:45:30 [INFO]: 🤖 Bot Pemetaan siap beroperasi pada
+2025-07-11 00:45:33 [ERROR]: [ERROR] Polling error: EFATAL: AggregateError
+2025-07-11 00:45:33 [WARN]: Polling error detected (EFATAL: AggregateError). Attempting to recover...
+2025-07-11 00:51:49 [INFO]: 🤖 Bot Pemetaan siap beroperasi pada
+2025-07-11 00:51:49 [ERROR]: [ERROR] Polling error: EFATAL: AggregateError
+2025-07-11 00:51:49 [WARN]: Polling error detected (EFATAL: AggregateError). Attempting to recover...
+2025-07-11 00:54:52 [INFO]: 🤖 Bot Pemetaan siap beroperasi pada 11/7/2025, 00.54.52
+2025-07-11 00:54:52 [ERROR]: [ERROR] Polling error: EFATAL: AggregateError
+2025-07-11 00:54:52 [WARN]: Fatal polling error detected. Consider implementing a restart mechanism or switching to webhooks for better stability.
+2025-07-11 00:54:55 [ERROR]: [ERROR] Polling error: EFATAL: AggregateError
+2025-07-11 00:54:55 [WARN]: Fatal polling error detected. Consider implementing a restart mechanism or switching to webhooks for better stability.
+2025-07-11 00:55:57 [ERROR]: [POLLING ERROR] EFATAL: EFATAL: AggregateError
+2025-07-11 00:55:57 [WARN]: Fatal error detected. Stopping polling...
+2025-07-11 00:55:57 [WARN]: Polling stopped. Attempting to restart in 15 seconds...
+2025-07-11 00:55:57 [INFO]: 🤖 Bot Pemetaan siap beroperasi pada 11/7/2025, 00.55.57
+2025-07-11 00:56:10 [INFO]: 🤖 Bot Pemetaan siap beroperasi pada 11/7/2025, 00.56.10
+2025-07-11 00:56:16 [ERROR]: [POLLING ERROR] ETELEGRAM: ETELEGRAM: 409 Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-07-11 00:56:17 [ERROR]: [POLLING ERROR] EFATAL: EFATAL: AggregateError
+2025-07-11 00:56:17 [WARN]: Fatal error detected. Stopping polling...
+2025-07-11 00:56:17 [WARN]: Polling stopped. Attempting to restart in 15 seconds...
+2025-07-11 00:56:19 [ERROR]: [POLLING ERROR] ETELEGRAM: ETELEGRAM: 409 Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-07-11 00:56:32 [INFO]: Restarting bot...
+2025-07-11 00:56:36 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Callback query - Details: {"data":"asset_hh_pit"}
+2025-07-11 00:56:36 [ERROR]: [POLLING ERROR] EFATAL: EFATAL: AggregateError
+2025-07-11 00:56:36 [WARN]: Fatal error detected. Stopping polling...
+2025-07-11 00:56:36 [WARN]: Polling stopped. Attempting to restart in 15 seconds...
+2025-07-11 00:56:38 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Callback query - Details: {"data":"asset_hh_new"}
+2025-07-11 00:56:38 [INFO]: 🤖 Bot Pemetaan siap beroperasi pada 11/7/2025, 00.56.38
+2025-07-11 00:56:51 [INFO]: Restarting bot...
+2025-07-11 00:56:59 [ERROR]: [POLLING ERROR] ETELEGRAM: ETELEGRAM: 409 Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-07-11 00:56:59 [INFO]: 🤖 Bot Pemetaan siap beroperasi pada 11/7/2025, 00.56.59
+2025-07-11 00:57:00 [ERROR]: [POLLING ERROR] ETELEGRAM: ETELEGRAM: 409 Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-07-11 00:57:07 [ERROR]: [POLLING ERROR] ETELEGRAM: ETELEGRAM: 409 Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-07-11 00:57:08 [ERROR]: [POLLING ERROR] ETELEGRAM: ETELEGRAM: 409 Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-07-11 00:57:15 [ERROR]: [POLLING ERROR] ETELEGRAM: ETELEGRAM: 409 Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-07-11 00:57:16 [ERROR]: [POLLING ERROR] ETELEGRAM: ETELEGRAM: 409 Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-07-11 00:57:23 [ERROR]: [POLLING ERROR] ETELEGRAM: ETELEGRAM: 409 Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-07-11 00:57:24 [ERROR]: [POLLING ERROR] ETELEGRAM: ETELEGRAM: 409 Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-07-11 00:57:31 [ERROR]: [POLLING ERROR] ETELEGRAM: ETELEGRAM: 409 Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-07-11 00:57:32 [ERROR]: [POLLING ERROR] ETELEGRAM: ETELEGRAM: 409 Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-07-11 00:57:39 [ERROR]: [POLLING ERROR] ETELEGRAM: ETELEGRAM: 409 Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-07-11 00:57:40 [ERROR]: [POLLING ERROR] ETELEGRAM: ETELEGRAM: 409 Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-07-11 00:57:47 [ERROR]: [POLLING ERROR] ETELEGRAM: ETELEGRAM: 409 Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-07-11 00:57:48 [ERROR]: [POLLING ERROR] ETELEGRAM: ETELEGRAM: 409 Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-07-11 00:57:55 [ERROR]: [POLLING ERROR] ETELEGRAM: ETELEGRAM: 409 Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-07-11 00:57:56 [ERROR]: [POLLING ERROR] ETELEGRAM: ETELEGRAM: 409 Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-07-11 00:58:03 [ERROR]: [POLLING ERROR] ETELEGRAM: ETELEGRAM: 409 Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-07-11 00:58:04 [ERROR]: [POLLING ERROR] ETELEGRAM: ETELEGRAM: 409 Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-07-11 00:58:11 [ERROR]: [POLLING ERROR] ETELEGRAM: ETELEGRAM: 409 Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-07-11 00:58:12 [ERROR]: [POLLING ERROR] ETELEGRAM: ETELEGRAM: 409 Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-07-11 00:58:23 [ERROR]: [POLLING ERROR] EFATAL: EFATAL: AggregateError
+2025-07-11 00:58:23 [WARN]: Fatal error detected. Stopping polling...
+2025-07-11 00:58:23 [WARN]: Polling stopped. Attempting to restart in 15 seconds...
+2025-07-11 00:58:23 [INFO]: 🤖 Bot Pemetaan siap beroperasi pada 11/7/2025, 00.58.23
+2025-07-11 00:59:19 [INFO]: 🤖 Bot Pemetaan siap beroperasi pada 11/7/2025, 00.59.19
+2025-07-11 00:59:20 [ERROR]: [POLLING ERROR] EFATAL: EFATAL: AggregateError
+2025-07-11 00:59:20 [WARN]: Fatal error detected. Stopping polling...
+2025-07-11 00:59:20 [ERROR]: [POLLING ERROR] EFATAL: EFATAL: AggregateError
+2025-07-11 00:59:20 [WARN]: Fatal error detected. Stopping polling...
+2025-07-11 00:59:20 [WARN]: Polling stopped. Attempting to restart in 15 seconds...
+2025-07-11 00:59:20 [WARN]: Polling stopped. Attempting to restart in 15 seconds...
+2025-07-11 00:59:35 [INFO]: Restarting bot...
+2025-07-11 00:59:35 [INFO]: Restarting bot...
+2025-07-11 00:59:35 [INFO]: 🤖 Bot Pemetaan siap beroperasi pada 11/7/2025, 00.59.35
+2025-07-11 00:59:40 [ERROR]: [POLLING ERROR] ETELEGRAM: ETELEGRAM: 409 Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-07-11 00:59:44 [ERROR]: [POLLING ERROR] ETELEGRAM: ETELEGRAM: 409 Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-07-11 00:59:48 [ERROR]: [POLLING ERROR] ETELEGRAM: ETELEGRAM: 409 Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-07-11 00:59:52 [ERROR]: [POLLING ERROR] ETELEGRAM: ETELEGRAM: 409 Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-07-11 00:59:56 [ERROR]: [POLLING ERROR] ETELEGRAM: ETELEGRAM: 409 Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-07-11 01:00:00 [ERROR]: [POLLING ERROR] ETELEGRAM: ETELEGRAM: 409 Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-07-11 01:00:04 [ERROR]: [POLLING ERROR] ETELEGRAM: ETELEGRAM: 409 Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-07-11 01:00:08 [ERROR]: [POLLING ERROR] ETELEGRAM: ETELEGRAM: 409 Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-07-11 01:00:12 [ERROR]: [POLLING ERROR] ETELEGRAM: ETELEGRAM: 409 Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-07-11 01:00:16 [ERROR]: [POLLING ERROR] ETELEGRAM: ETELEGRAM: 409 Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-07-11 01:00:20 [ERROR]: [POLLING ERROR] ETELEGRAM: ETELEGRAM: 409 Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-07-11 01:00:24 [ERROR]: [POLLING ERROR] ETELEGRAM: ETELEGRAM: 409 Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-07-11 01:00:28 [ERROR]: [POLLING ERROR] ETELEGRAM: ETELEGRAM: 409 Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-07-11 01:00:36 [ERROR]: [POLLING ERROR] ETELEGRAM: ETELEGRAM: 409 Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-07-11 01:00:38 [INFO]: 🤖 Bot Pemetaan siap beroperasi pada
+2025-07-11 01:00:43 [INFO]: User: Kahfi (@kahfifauzan) - ID: 1348403944 - Action: Text message received - Details: {"text":"/start"}
+2025-07-11 01:00:43 [INFO]: User: Kahfi (@kahfifauzan) - ID: 1348403944 - Action: Help command
+2025-07-11 01:04:21 [ERROR]: [POLLING ERROR] EFATAL: EFATAL: AggregateError
+2025-07-11 01:04:21 [WARN]: Error fatal terdeteksi. Menghentikan polling...
+2025-07-11 01:04:21 [INFO]: 🤖 Bot Pemetaan siap beroperasi pada 11/7/2025, 01.04.21
+2025-07-11 01:04:21 [WARN]: Polling dihentikan. Mencoba memulai ulang dalam 15 detik...
+2025-07-11 01:04:37 [INFO]: 🤖 Bot Pemetaan siap beroperasi pada 11/7/2025, 01.04.37
+2025-07-11 01:04:37 [ERROR]: [POLLING ERROR] EFATAL: EFATAL: AggregateError
+2025-07-11 01:04:37 [WARN]: Error fatal terdeteksi. Menghentikan polling...
+2025-07-11 01:04:37 [WARN]: Polling dihentikan. Mencoba memulai ulang dalam 15 detik...
+2025-07-11 01:04:42 [INFO]: 🤖 Bot Pemetaan siap beroperasi pada
+2025-07-11 01:04:43 [INFO]: User: Kahfi (@kahfifauzan) - ID: 1348403944 - Action: Text message received - Details: {"text":"/start"}
+2025-07-11 01:04:43 [INFO]: User: Kahfi (@kahfifauzan) - ID: 1348403944 - Action: Help command
+2025-07-11 01:04:57 [INFO]: User: Kahfi (@kahfifauzan) - ID: 1348403944 - Action: Text message received - Details: {"text":"/register 123456"}
+2025-07-11 01:04:57 [INFO]: User: Kahfi (@kahfifauzan) - ID: 1348403944 - Action: Register command - Details: {"nik":"123456"}
+2025-07-11 01:05:00 [INFO]: User: Kahfi (@kahfifauzan) - ID: 1348403944 - Action: Text message received - Details: {"text":"/new"}
+2025-07-11 01:05:00 [INFO]: User: Kahfi (@kahfifauzan) - ID: 1348403944 - Action: New session command
+2025-07-11 01:05:02 [INFO]: User: Kahfi (@kahfifauzan) - ID: 1348403944 - Action: Text message received - Details: {"text":"ok"}
+2025-07-11 01:05:02 [INFO]: User: Kahfi (@kahfifauzan) - ID: 1348403944 - Action: Text message received - Details: {"text":"tes"}
+2025-07-11 01:05:04 [INFO]: User: Kahfi (@kahfifauzan) - ID: 1348403944 - Action: Text message received - Details: {}
+2025-07-11 01:05:04 [INFO]: User: Kahfi (@kahfifauzan) - ID: 1348403944 - Action: Location received - Details: {"latitude":-6.127336,"longitude":106.526865}
+2025-07-11 01:05:07 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Callback query received - Details: {"callbackData":"asset_trench"}
+2025-07-11 01:05:07 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Asset selection - Details: {"assetType":"trench"}
+2025-07-11 01:05:11 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Callback query received - Details: {"callbackData":"trench_yellow"}
+2025-07-11 01:05:11 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Trench type selection - Details: {"trenchType":"trench_yellow"}
+2025-07-11 01:05:13 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Callback query received - Details: {"callbackData":"asset_done"}
+2025-07-11 01:05:13 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Asset selection - Details: {"assetType":"done"}
+2025-07-11 01:11:19 [INFO]: 🤖 Bot Pemetaan siap beroperasi pada
+2025-07-11 01:11:26 [INFO]: User: Kahfi (@kahfifauzan) - ID: 1348403944 - Action: Text message received - Details: {"text":"/start"}
+2025-07-11 01:11:26 [INFO]: User: Kahfi (@kahfifauzan) - ID: 1348403944 - Action: Help command
+2025-07-11 01:11:29 [INFO]: User: Kahfi (@kahfifauzan) - ID: 1348403944 - Action: Text message received - Details: {"text":"/register 123456"}
+2025-07-11 01:11:29 [INFO]: User: Kahfi (@kahfifauzan) - ID: 1348403944 - Action: Register command - Details: {"nik":"123456"}
+2025-07-11 01:11:35 [INFO]: User: Kahfi (@kahfifauzan) - ID: 1348403944 - Action: Text message received - Details: {"text":"/new"}
+2025-07-11 01:11:35 [INFO]: User: Kahfi (@kahfifauzan) - ID: 1348403944 - Action: New session command
+2025-07-11 01:11:36 [INFO]: User: Kahfi (@kahfifauzan) - ID: 1348403944 - Action: Text message received - Details: {"text":"ok"}
+2025-07-11 01:11:37 [INFO]: User: Kahfi (@kahfifauzan) - ID: 1348403944 - Action: Text message received - Details: {"text":"tes"}
+2025-07-11 01:11:39 [INFO]: User: Kahfi (@kahfifauzan) - ID: 1348403944 - Action: Text message received - Details: {}
+2025-07-11 01:11:39 [INFO]: User: Kahfi (@kahfifauzan) - ID: 1348403944 - Action: Location received - Details: {"latitude":-6.127336,"longitude":106.526865}
+2025-07-11 01:11:42 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Callback query received - Details: {"callbackData":"asset_trench"}
+2025-07-11 01:11:42 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Asset selection - Details: {"assetType":"trench"}
+2025-07-11 01:11:43 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Callback query received - Details: {"callbackData":"trench_yellow"}
+2025-07-11 01:11:43 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Trench type selection (direct finalization) - Details: {"trenchType":"trench_yellow"}
+2025-07-11 01:11:47 [INFO]: User: Kahfi (@kahfifauzan) - ID: 1348403944 - Action: Text message received - Details: {}
+2025-07-11 01:11:47 [INFO]: User: Kahfi (@kahfifauzan) - ID: 1348403944 - Action: Location received - Details: {"latitude":-6.157695,"longitude":106.636965}
+2025-07-11 01:11:48 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Callback query received - Details: {"callbackData":"asset_trench"}
+2025-07-11 01:11:48 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Asset selection - Details: {"assetType":"trench"}
+2025-07-11 01:11:50 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Callback query received - Details: {"callbackData":"trench_red"}
+2025-07-11 01:11:50 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Trench type selection (direct finalization) - Details: {"trenchType":"trench_red"}
+2025-07-11 01:12:01 [INFO]: User: Kahfi (@kahfifauzan) - ID: 1348403944 - Action: Text message received - Details: {}
+2025-07-11 01:12:01 [INFO]: User: Kahfi (@kahfifauzan) - ID: 1348403944 - Action: Location received - Details: {"latitude":-6.124165,"longitude":106.581673}
+2025-07-11 01:12:03 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Callback query received - Details: {"callbackData":"asset_trench"}
+2025-07-11 01:12:03 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Asset selection - Details: {"assetType":"trench"}
+2025-07-11 01:12:04 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Callback query received - Details: {"callbackData":"trench_aerial"}
+2025-07-11 01:12:04 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Trench type selection (direct finalization) - Details: {"trenchType":"trench_aerial"}
+2025-07-11 01:12:11 [INFO]: User: Kahfi (@kahfifauzan) - ID: 1348403944 - Action: Text message received - Details: {}
+2025-07-11 01:12:11 [INFO]: User: Kahfi (@kahfifauzan) - ID: 1348403944 - Action: Location received - Details: {"latitude":-6.182551,"longitude":106.600074}
+2025-07-11 01:12:12 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Callback query received - Details: {"callbackData":"asset_te"}
+2025-07-11 01:12:12 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Asset selection - Details: {"assetType":"te"}
+2025-07-11 01:12:13 [INFO]: User: Kahfi (@kahfifauzan) - ID: 1348403944 - Action: Text message received - Details: {"text":"123"}
+2025-07-11 01:12:56 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Callback query received - Details: {"callbackData":"asset_odp"}
+2025-07-11 01:12:56 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Asset selection - Details: {"assetType":"odp"}
+2025-07-11 01:12:58 [INFO]: User: Kahfi (@kahfifauzan) - ID: 1348403944 - Action: Text message received - Details: {"text":"odp123"}
+2025-07-11 01:12:59 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Callback query received - Details: {"callbackData":"asset_odc"}
+2025-07-11 01:12:59 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Asset selection - Details: {"assetType":"odc"}
+2025-07-11 01:13:01 [INFO]: User: Kahfi (@kahfifauzan) - ID: 1348403944 - Action: Text message received - Details: {"text":"312"}
+2025-07-11 01:13:02 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Callback query received - Details: {"callbackData":"asset_hh_pit"}
+2025-07-11 01:13:02 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Asset selection - Details: {"assetType":"hh"}
+2025-07-11 01:13:04 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Callback query received - Details: {"callbackData":"asset_hh_new"}
+2025-07-11 01:13:04 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Asset selection - Details: {"assetType":"hh"}
+2025-07-11 01:13:06 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Callback query received - Details: {"callbackData":"asset_trench"}
+2025-07-11 01:13:06 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Asset selection - Details: {"assetType":"trench"}
+2025-07-11 01:13:09 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Callback query received - Details: {"callbackData":"trench_yellow"}
+2025-07-11 01:13:09 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Trench type selection (direct finalization) - Details: {"trenchType":"trench_yellow"}
+2025-07-11 01:13:50 [INFO]: User: Kahfi (@kahfifauzan) - ID: 1348403944 - Action: Text message received - Details: {"text":"/done"}
+2025-07-11 01:13:50 [INFO]: User: Kahfi (@kahfifauzan) - ID: 1348403944 - Action: Done command
+2025-07-11 01:13:50 [INFO]: User:  (@N/A) - ID: 1348403944 - Action: Processing map and KML
+2025-07-11 01:20:05 [INFO]: 🤖 Bot Pemetaan siap beroperasi pada
+2025-07-11 01:20:05 [ERROR]: [ERROR] Polling error: EFATAL: AggregateError
+2025-07-11 01:20:06 [ERROR]: [ERROR] Polling error: EFATAL: AggregateError
+2025-07-11 01:20:20 [INFO]: 🤖 Bot Pemetaan siap beroperasi pada
+2025-07-11 01:20:58 [INFO]: 🤖 Bot Pemetaan siap beroperasi pada
+2025-07-11 01:20:58 [ERROR]: [ERROR] Polling error: EFATAL: AggregateError
+2025-07-11 01:21:21 [INFO]: User: Kahfi (@kahfifauzan) - ID: 1348403944 - Action: Text message received - Details: {"text":"/start"}
+2025-07-11 01:21:21 [INFO]: User: Kahfi (@kahfifauzan) - ID: 1348403944 - Action: Help command
+2025-07-11 01:21:26 [INFO]: User: Kahfi (@kahfifauzan) - ID: 1348403944 - Action: Text message received - Details: {"text":"/register 123456"}
+2025-07-11 01:21:26 [INFO]: User: Kahfi (@kahfifauzan) - ID: 1348403944 - Action: Register command - Details: {"nik":"123456"}
+2025-07-11 01:21:28 [INFO]: User: Kahfi (@kahfifauzan) - ID: 1348403944 - Action: Text message received - Details: {"text":"/new"}
+2025-07-11 01:21:28 [INFO]: User: Kahfi (@kahfifauzan) - ID: 1348403944 - Action: New session command
+2025-07-11 01:21:30 [INFO]: User: Kahfi (@kahfifauzan) - ID: 1348403944 - Action: Text message received - Details: {"text":"ok"}
+2025-07-11 01:21:31 [INFO]: User: Kahfi (@kahfifauzan) - ID: 1348403944 - Action: Text message received - Details: {"text":"tes"}
+2025-07-11 01:22:00 [INFO]: User: Kahfi (@kahfifauzan) - ID: 1348403944 - Action: Text message received - Details: {}
+2025-07-11 01:22:00 [INFO]: User: Kahfi (@kahfifauzan) - ID: 1348403944 - Action: Location received - Details: {"latitude":-6.169972,"longitude":106.625076}
+2025-07-11 01:22:02 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Callback query received - Details: {"callbackData":"asset_trench"}
+2025-07-11 01:22:02 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Asset selection - Details: {"assetType":"trench"}
+2025-07-11 01:22:04 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Callback query received - Details: {"callbackData":"trench_red"}
+2025-07-11 01:22:04 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Trench type selection (direct finalization) - Details: {"trenchType":"trench_red"}
+2025-07-11 01:22:08 [INFO]: User: Kahfi (@kahfifauzan) - ID: 1348403944 - Action: Text message received - Details: {}
+2025-07-11 01:22:08 [INFO]: User: Kahfi (@kahfifauzan) - ID: 1348403944 - Action: Location received - Details: {"latitude":-6.182752,"longitude":106.619575}
+2025-07-11 01:22:10 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Callback query received - Details: {"callbackData":"asset_odc"}
+2025-07-11 01:22:10 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Asset selection - Details: {"assetType":"odc"}
+2025-07-11 01:22:14 [INFO]: User: Kahfi (@kahfifauzan) - ID: 1348403944 - Action: Text message received - Details: {}
+2025-07-11 01:22:14 [INFO]: User: Kahfi (@kahfifauzan) - ID: 1348403944 - Action: Location received - Details: {"latitude":-6.124165,"longitude":106.581673}
+2025-07-11 01:22:18 [INFO]: User: Kahfi (@kahfifauzan) - ID: 1348403944 - Action: Text message received - Details: {"text":"ok"}
+2025-07-11 01:22:20 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Callback query received - Details: {"callbackData":"asset_odp"}
+2025-07-11 01:22:20 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Asset selection - Details: {"assetType":"odp"}
+2025-07-11 01:22:26 [INFO]: User: Kahfi (@kahfifauzan) - ID: 1348403944 - Action: Text message received - Details: {"text":"kkkk"}
+2025-07-11 01:22:28 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Callback query received - Details: {"callbackData":"asset_te"}
+2025-07-11 01:22:28 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Asset selection - Details: {"assetType":"te"}
+2025-07-11 01:22:31 [INFO]: User: Kahfi (@kahfifauzan) - ID: 1348403944 - Action: Text message received - Details: {"text":"1234"}
+2025-07-11 01:22:45 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Callback query received - Details: {"callbackData":"asset_tb"}
+2025-07-11 01:22:45 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Asset selection - Details: {"assetType":"tb"}
+2025-07-11 01:23:01 [INFO]: User: Kahfi (@kahfifauzan) - ID: 1348403944 - Action: Text message received - Details: {"text":"tb 2"}
+2025-07-11 01:23:03 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Callback query received - Details: {"callbackData":"asset_done"}
+2025-07-11 01:23:03 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Asset selection - Details: {"assetType":"done"}
+2025-07-11 01:23:05 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Callback query received - Details: {"callbackData":"line_aerial"}
+2025-07-11 01:23:05 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Line type selection - Details: {"lineType":"aerial"}
+2025-07-11 01:23:08 [INFO]: User: Kahfi (@kahfifauzan) - ID: 1348403944 - Action: Text message received - Details: {"text":"/done"}
+2025-07-11 01:23:08 [INFO]: User: Kahfi (@kahfifauzan) - ID: 1348403944 - Action: Done command
+2025-07-11 01:23:08 [INFO]: User:  (@N/A) - ID: 1348403944 - Action: Processing map and KML
+2025-07-11 01:23:09 [ERROR]: [ERROR] Gagal memproses hasil: Request failed with status code 400
+2025-07-11 01:25:28 [INFO]: 🤖 Bot Pemetaan siap beroperasi pada
+2025-07-11 01:25:32 [INFO]: User: Kahfi (@kahfifauzan) - ID: 1348403944 - Action: Text message received - Details: {"text":"/start"}
+2025-07-11 01:25:32 [INFO]: User: Kahfi (@kahfifauzan) - ID: 1348403944 - Action: Help command
+2025-07-11 01:25:34 [INFO]: User: Kahfi (@kahfifauzan) - ID: 1348403944 - Action: Text message received - Details: {"text":"/new"}
+2025-07-11 01:25:34 [INFO]: User: Kahfi (@kahfifauzan) - ID: 1348403944 - Action: New session command
+2025-07-11 01:25:37 [INFO]: User: Kahfi (@kahfifauzan) - ID: 1348403944 - Action: Text message received - Details: {"text":"/register 123456"}
+2025-07-11 01:25:37 [INFO]: User: Kahfi (@kahfifauzan) - ID: 1348403944 - Action: Register command - Details: {"nik":"123456"}
+2025-07-11 01:25:40 [INFO]: User: Kahfi (@kahfifauzan) - ID: 1348403944 - Action: Text message received - Details: {"text":"/new"}
+2025-07-11 01:25:40 [INFO]: User: Kahfi (@kahfifauzan) - ID: 1348403944 - Action: New session command
+2025-07-11 01:25:42 [INFO]: User: Kahfi (@kahfifauzan) - ID: 1348403944 - Action: Text message received - Details: {"text":"123"}
+2025-07-11 01:25:45 [INFO]: User: Kahfi (@kahfifauzan) - ID: 1348403944 - Action: Text message received - Details: {"text":"tes"}
+2025-07-11 01:25:48 [INFO]: User: Kahfi (@kahfifauzan) - ID: 1348403944 - Action: Text message received - Details: {}
+2025-07-11 01:25:48 [INFO]: User: Kahfi (@kahfifauzan) - ID: 1348403944 - Action: Location received - Details: {"latitude":-6.127336,"longitude":106.526865}
+2025-07-11 01:25:50 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Callback query received - Details: {"callbackData":"asset_tb"}
+2025-07-11 01:25:50 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Asset selection - Details: {"assetType":"tb"}
+2025-07-11 01:25:52 [INFO]: User: Kahfi (@kahfifauzan) - ID: 1348403944 - Action: Text message received - Details: {"text":"123"}
+2025-07-11 01:25:53 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Callback query received - Details: {"callbackData":"asset_te"}
+2025-07-11 01:25:53 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Asset selection - Details: {"assetType":"te"}
+2025-07-11 01:25:54 [INFO]: User: Kahfi (@kahfifauzan) - ID: 1348403944 - Action: Text message received - Details: {"text":"132"}
+2025-07-11 01:25:56 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Callback query received - Details: {"callbackData":"asset_odp"}
+2025-07-11 01:25:56 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Asset selection - Details: {"assetType":"odp"}
+2025-07-11 01:25:58 [INFO]: User: Kahfi (@kahfifauzan) - ID: 1348403944 - Action: Text message received - Details: {"text":"312"}
+2025-07-11 01:26:17 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Callback query received - Details: {"callbackData":"asset_odc"}
+2025-07-11 01:26:17 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Asset selection - Details: {"assetType":"odc"}
+2025-07-11 01:26:32 [INFO]: User: Kahfi (@kahfifauzan) - ID: 1348403944 - Action: Text message received - Details: {"text":"odc"}
+2025-07-11 01:26:34 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Callback query received - Details: {"callbackData":"asset_odp"}
+2025-07-11 01:26:34 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Asset selection - Details: {"assetType":"odp"}
+2025-07-11 01:26:35 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Callback query received - Details: {"callbackData":"asset_odp"}
+2025-07-11 01:26:35 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Asset selection - Details: {"assetType":"odp"}
+2025-07-11 01:26:36 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Callback query received - Details: {"callbackData":"asset_odc"}
+2025-07-11 01:26:36 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Asset selection - Details: {"assetType":"odc"}
+2025-07-11 01:26:38 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Callback query received - Details: {"callbackData":"asset_hh_pit"}
+2025-07-11 01:26:38 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Asset selection - Details: {"assetType":"hh"}
+2025-07-11 01:26:40 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Callback query received - Details: {"callbackData":"asset_hh_new"}
+2025-07-11 01:26:40 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Asset selection - Details: {"assetType":"hh"}
+2025-07-11 01:26:42 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Callback query received - Details: {"callbackData":"asset_done"}
+2025-07-11 01:26:42 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Asset selection - Details: {"assetType":"done"}
+2025-07-11 01:26:44 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Callback query received - Details: {"callbackData":"line_aerial"}
+2025-07-11 01:26:44 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Line type selection - Details: {"lineType":"aerial"}
+2025-07-11 01:26:49 [INFO]: User: Kahfi (@kahfifauzan) - ID: 1348403944 - Action: Text message received - Details: {}
+2025-07-11 01:26:49 [INFO]: User: Kahfi (@kahfifauzan) - ID: 1348403944 - Action: Location received - Details: {"latitude":-6.223486,"longitude":106.587608}
+2025-07-11 01:26:57 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Callback query received - Details: {"callbackData":"asset_hh_new"}
+2025-07-11 01:26:57 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Asset selection - Details: {"assetType":"hh"}
+2025-07-11 01:26:59 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Callback query received - Details: {"callbackData":"asset_hh_pit"}
+2025-07-11 01:26:59 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Asset selection - Details: {"assetType":"hh"}
+2025-07-11 01:27:01 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Callback query received - Details: {"callbackData":"asset_done"}
+2025-07-11 01:27:01 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Asset selection - Details: {"assetType":"done"}
+2025-07-11 01:27:02 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Callback query received - Details: {"callbackData":"line_trench_yellow"}
+2025-07-11 01:27:02 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Line type selection - Details: {"lineType":"trench"}
+2025-07-11 01:27:06 [INFO]: User: Kahfi (@kahfifauzan) - ID: 1348403944 - Action: Text message received - Details: {}
+2025-07-11 01:27:06 [INFO]: User: Kahfi (@kahfifauzan) - ID: 1348403944 - Action: Location received - Details: {"latitude":-6.183549,"longitude":106.634444}
+2025-07-11 01:27:07 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Callback query received - Details: {"callbackData":"asset_odp"}
+2025-07-11 01:27:07 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Asset selection - Details: {"assetType":"odp"}
+2025-07-11 01:27:08 [INFO]: User: Kahfi (@kahfifauzan) - ID: 1348403944 - Action: Text message received - Details: {"text":"123"}
+2025-07-11 01:27:11 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Callback query received - Details: {"callbackData":"asset_done"}
+2025-07-11 01:27:11 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Asset selection - Details: {"assetType":"done"}
+2025-07-11 01:27:13 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Callback query received - Details: {"callbackData":"line_trench_red"}
+2025-07-11 01:27:13 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Line type selection - Details: {"lineType":"trench"}
+2025-07-11 01:27:18 [INFO]: User: Kahfi (@kahfifauzan) - ID: 1348403944 - Action: Text message received - Details: {}
+2025-07-11 01:27:18 [INFO]: User: Kahfi (@kahfifauzan) - ID: 1348403944 - Action: Location received - Details: {"latitude":-6.118381,"longitude":106.586397}
+2025-07-11 01:27:19 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Callback query received - Details: {"callbackData":"asset_trench"}
+2025-07-11 01:27:19 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Asset selection - Details: {"assetType":"trench"}
+2025-07-11 01:27:22 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Callback query received - Details: {"callbackData":"trench_aerial"}
+2025-07-11 01:27:22 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Trench type selection (direct finalization) - Details: {"trenchType":"trench_aerial"}
+2025-07-11 01:27:26 [INFO]: User: Kahfi (@kahfifauzan) - ID: 1348403944 - Action: Text message received - Details: {}
+2025-07-11 01:27:26 [INFO]: User: Kahfi (@kahfifauzan) - ID: 1348403944 - Action: Location received - Details: {"latitude":-6.181033,"longitude":106.633291}
+2025-07-11 01:27:28 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Callback query received - Details: {"callbackData":"asset_trench"}
+2025-07-11 01:27:28 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Asset selection - Details: {"assetType":"trench"}
+2025-07-11 01:27:29 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Callback query received - Details: {"callbackData":"trench_red"}
+2025-07-11 01:27:29 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Trench type selection (direct finalization) - Details: {"trenchType":"trench_red"}
+2025-07-11 01:27:34 [INFO]: User: Kahfi (@kahfifauzan) - ID: 1348403944 - Action: Text message received - Details: {}
+2025-07-11 01:27:34 [INFO]: User: Kahfi (@kahfifauzan) - ID: 1348403944 - Action: Location received - Details: {"latitude":-6.223486,"longitude":106.587608}
+2025-07-11 01:27:35 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Callback query received - Details: {"callbackData":"asset_trench"}
+2025-07-11 01:27:35 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Asset selection - Details: {"assetType":"trench"}
+2025-07-11 01:27:37 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Callback query received - Details: {"callbackData":"trench_yellow"}
+2025-07-11 01:27:37 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Trench type selection (direct finalization) - Details: {"trenchType":"trench_yellow"}
+2025-07-11 01:27:39 [INFO]: User: Kahfi (@kahfifauzan) - ID: 1348403944 - Action: Text message received - Details: {"text":"/done"}
+2025-07-11 01:27:39 [INFO]: User: Kahfi (@kahfifauzan) - ID: 1348403944 - Action: Done command
+2025-07-11 01:27:39 [INFO]: User:  (@N/A) - ID: 1348403944 - Action: Processing map and KML
+2025-07-11 01:27:40 [ERROR]: [ERROR] Gagal memproses hasil: Request failed with status code 400
+2025-07-11 01:29:34 [INFO]: 🤖 Bot Pemetaan siap beroperasi pada
+2025-07-11 01:29:34 [ERROR]: [ERROR] Polling error: EFATAL: AggregateError
+2025-07-11 01:29:35 [ERROR]: [ERROR] Polling error: EFATAL: AggregateError
+2025-07-11 01:32:11 [INFO]: User: Kahfi (@kahfifauzan) - ID: 1348403944 - Action: Text message received - Details: {"text":"/start"}
+2025-07-11 01:32:11 [INFO]: User: Kahfi (@kahfifauzan) - ID: 1348403944 - Action: Help command
+2025-07-11 01:32:12 [ERROR]: [ERROR] Polling error detected.
+2025-07-11 01:32:45 [INFO]: User: Kahfi (@kahfifauzan) - ID: 1348403944 - Action: Text message received - Details: {"text":"/start"}
+2025-07-11 01:32:45 [INFO]: User: Kahfi (@kahfifauzan) - ID: 1348403944 - Action: Help command
+2025-07-11 01:32:46 [ERROR]: [ERROR] Polling error detected.
+2025-07-11 01:32:56 [INFO]: User: Kahfi (@kahfifauzan) - ID: 1348403944 - Action: Text message received - Details: {"text":"/register 123456"}
+2025-07-11 01:32:56 [INFO]: User: Kahfi (@kahfifauzan) - ID: 1348403944 - Action: Register command - Details: {"nik":"123456"}
+2025-07-11 01:32:58 [INFO]: User: Kahfi (@kahfifauzan) - ID: 1348403944 - Action: Text message received - Details: {"text":"/new"}
+2025-07-11 01:32:58 [INFO]: User: Kahfi (@kahfifauzan) - ID: 1348403944 - Action: New session command
+2025-07-11 01:33:00 [INFO]: User: Kahfi (@kahfifauzan) - ID: 1348403944 - Action: Text message received - Details: {"text":"ok"}
+2025-07-11 01:33:01 [INFO]: User: Kahfi (@kahfifauzan) - ID: 1348403944 - Action: Text message received - Details: {"text":"tes"}
+2025-07-11 01:33:03 [INFO]: User: Kahfi (@kahfifauzan) - ID: 1348403944 - Action: Text message received - Details: {}
+2025-07-11 01:33:03 [INFO]: User: Kahfi (@kahfifauzan) - ID: 1348403944 - Action: Location received - Details: {"latitude":-6.127336,"longitude":106.526865}
+2025-07-11 01:33:04 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Callback query received - Details: {"callbackData":"asset_trench"}
+2025-07-11 01:33:04 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Asset selection - Details: {"assetType":"trench"}
+2025-07-11 01:33:06 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Callback query received - Details: {"callbackData":"trench_red"}
+2025-07-11 01:33:06 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Trench type selection (direct finalization) - Details: {"trenchType":"trench_red"}
+2025-07-11 01:33:10 [INFO]: User: Kahfi (@kahfifauzan) - ID: 1348403944 - Action: Text message received - Details: {}
+2025-07-11 01:33:10 [INFO]: User: Kahfi (@kahfifauzan) - ID: 1348403944 - Action: Location received - Details: {"latitude":-6.178046,"longitude":106.631758}
+2025-07-11 01:33:11 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Callback query received - Details: {"callbackData":"asset_tb"}
+2025-07-11 01:33:11 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Asset selection - Details: {"assetType":"tb"}
+2025-07-11 01:33:14 [INFO]: User: Kahfi (@kahfifauzan) - ID: 1348403944 - Action: Text message received - Details: {"text":"123"}
+2025-07-11 01:33:16 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Callback query received - Details: {"callbackData":"asset_te"}
+2025-07-11 01:33:16 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Asset selection - Details: {"assetType":"te"}
+2025-07-11 01:33:17 [INFO]: User: Kahfi (@kahfifauzan) - ID: 1348403944 - Action: Text message received - Details: {"text":"132"}
+2025-07-11 01:33:19 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Callback query received - Details: {"callbackData":"asset_odp"}
+2025-07-11 01:33:19 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Asset selection - Details: {"assetType":"odp"}
+2025-07-11 01:33:20 [INFO]: User: Kahfi (@kahfifauzan) - ID: 1348403944 - Action: Text message received - Details: {"text":"341"}
+2025-07-11 01:33:21 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Callback query received - Details: {"callbackData":"asset_odc"}
+2025-07-11 01:33:21 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Asset selection - Details: {"assetType":"odc"}
+2025-07-11 01:33:23 [INFO]: User: Kahfi (@kahfifauzan) - ID: 1348403944 - Action: Text message received - Details: {"text":"2512"}
+2025-07-11 01:33:25 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Callback query received - Details: {"callbackData":"asset_hh_pit"}
+2025-07-11 01:33:25 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Asset selection - Details: {"assetType":"hh"}
+2025-07-11 01:33:26 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Callback query received - Details: {"callbackData":"asset_hh_new"}
+2025-07-11 01:33:26 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Asset selection - Details: {"assetType":"hh"}
+2025-07-11 01:33:28 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Callback query received - Details: {"callbackData":"asset_done"}
+2025-07-11 01:33:28 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Asset selection - Details: {"assetType":"done"}
+2025-07-11 01:33:32 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Callback query received - Details: {"callbackData":"line_trench_red"}
+2025-07-11 01:33:32 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Line type selection - Details: {"lineType":"trench"}
+2025-07-11 01:33:34 [INFO]: User: Kahfi (@kahfifauzan) - ID: 1348403944 - Action: Text message received - Details: {}
+2025-07-11 01:33:34 [INFO]: User: Kahfi (@kahfifauzan) - ID: 1348403944 - Action: Location received - Details: {"latitude":-6.127336,"longitude":106.526865}
+2025-07-11 01:33:35 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Callback query received - Details: {"callbackData":"asset_hh_new"}
+2025-07-11 01:33:35 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Asset selection - Details: {"assetType":"hh"}
+2025-07-11 01:33:38 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Callback query received - Details: {"callbackData":"asset_done"}
+2025-07-11 01:33:38 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Asset selection - Details: {"assetType":"done"}
+2025-07-11 01:33:41 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Callback query received - Details: {"callbackData":"line_aerial"}
+2025-07-11 01:33:41 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Line type selection - Details: {"lineType":"aerial"}
+2025-07-11 01:33:44 [INFO]: User: Kahfi (@kahfifauzan) - ID: 1348403944 - Action: Text message received - Details: {}
+2025-07-11 01:33:44 [INFO]: User: Kahfi (@kahfifauzan) - ID: 1348403944 - Action: Location received - Details: {"latitude":-6.219674,"longitude":106.610177}
+2025-07-11 01:33:45 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Callback query received - Details: {"callbackData":"asset_trench"}
+2025-07-11 01:33:45 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Asset selection - Details: {"assetType":"trench"}
+2025-07-11 01:33:47 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Callback query received - Details: {"callbackData":"trench_red"}
+2025-07-11 01:33:47 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Trench type selection (direct finalization) - Details: {"trenchType":"trench_red"}
+2025-07-11 01:33:52 [INFO]: User: Kahfi (@kahfifauzan) - ID: 1348403944 - Action: Text message received - Details: {}
+2025-07-11 01:33:52 [INFO]: User: Kahfi (@kahfifauzan) - ID: 1348403944 - Action: Location received - Details: {"latitude":-6.11731,"longitude":106.57483}
+2025-07-11 01:33:53 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Callback query received - Details: {"callbackData":"asset_trench"}
+2025-07-11 01:33:53 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Asset selection - Details: {"assetType":"trench"}
+2025-07-11 01:33:56 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Callback query received - Details: {"callbackData":"trench_yellow"}
+2025-07-11 01:33:56 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Trench type selection (direct finalization) - Details: {"trenchType":"trench_yellow"}
+2025-07-11 01:33:59 [INFO]: User: Kahfi (@kahfifauzan) - ID: 1348403944 - Action: Text message received - Details: {}
+2025-07-11 01:33:59 [INFO]: User: Kahfi (@kahfifauzan) - ID: 1348403944 - Action: Location received - Details: {"latitude":-6.178338,"longitude":106.630083}
+2025-07-11 01:34:00 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Callback query received - Details: {"callbackData":"asset_trench"}
+2025-07-11 01:34:00 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Asset selection - Details: {"assetType":"trench"}
+2025-07-11 01:34:02 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Callback query received - Details: {"callbackData":"trench_aerial"}
+2025-07-11 01:34:02 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Trench type selection (direct finalization) - Details: {"trenchType":"trench_aerial"}
+2025-07-11 01:34:05 [INFO]: User: Kahfi (@kahfifauzan) - ID: 1348403944 - Action: Text message received - Details: {}
+2025-07-11 01:34:05 [INFO]: User: Kahfi (@kahfifauzan) - ID: 1348403944 - Action: Location received - Details: {"latitude":-6.124165,"longitude":106.581673}
+2025-07-11 01:34:06 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Callback query received - Details: {"callbackData":"asset_hh_pit"}
+2025-07-11 01:34:06 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Asset selection - Details: {"assetType":"hh"}
+2025-07-11 01:34:08 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Callback query received - Details: {"callbackData":"asset_done"}
+2025-07-11 01:34:08 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Asset selection - Details: {"assetType":"done"}
+2025-07-11 01:34:10 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Callback query received - Details: {"callbackData":"line_trench_yellow"}
+2025-07-11 01:34:10 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Line type selection - Details: {"lineType":"trench"}
+2025-07-11 01:34:12 [INFO]: User: Kahfi (@kahfifauzan) - ID: 1348403944 - Action: Text message received - Details: {}
+2025-07-11 01:34:12 [INFO]: User: Kahfi (@kahfifauzan) - ID: 1348403944 - Action: Location received - Details: {"latitude":-6.18001,"longitude":106.637002}
+2025-07-11 01:34:14 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Callback query received - Details: {"callbackData":"asset_done"}
+2025-07-11 01:34:14 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Asset selection - Details: {"assetType":"done"}
+2025-07-11 01:34:16 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Callback query received - Details: {"callbackData":"asset_odc"}
+2025-07-11 01:34:16 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Asset selection - Details: {"assetType":"odc"}
+2025-07-11 01:34:18 [INFO]: User: Kahfi (@kahfifauzan) - ID: 1348403944 - Action: Text message received - Details: {"text":"odc123"}
+2025-07-11 01:34:19 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Callback query received - Details: {"callbackData":"asset_done"}
+2025-07-11 01:34:19 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Asset selection - Details: {"assetType":"done"}
+2025-07-11 01:34:21 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Callback query received - Details: {"callbackData":"line_trench_red"}
+2025-07-11 01:34:21 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Line type selection - Details: {"lineType":"trench"}
+2025-07-11 01:34:23 [INFO]: User: Kahfi (@kahfifauzan) - ID: 1348403944 - Action: Text message received - Details: {"text":"/done"}
+2025-07-11 01:34:23 [INFO]: User: Kahfi (@kahfifauzan) - ID: 1348403944 - Action: Done command
+2025-07-11 01:34:23 [INFO]: User:  (@N/A) - ID: 1348403944 - Action: Processing map and KML
+2025-07-11 01:34:24 [ERROR]: [ERROR] Gagal memproses hasil: Request failed with status code 400
+2025-07-11 01:34:24 [ERROR]: [ERROR] Geoapify Response Data: {"type":"Buffer","data":[123,34,115,116,97,116,117,115,67,111,100,101,34,58,52,48,48,44,34,101,114,114,111,114,34,58,34,66,97,100,32,82,101,113,117,101,115,116,34,44,34,109,101,115,115,97,103,101,34,58,34,92,34,109,97,114,107,101,114,115,91,48,93,46,116,121,112,101,92,34,32,109,117,115,116,32,98,101,32,111,110,101,32,111,102,32,91,109,97,116,101,114,105,97,108,44,32,97,119,101,115,111,109,101,44,32,99,105,114,99,108,101,44,32,112,108,97,105,110,93,34,125]}
+2025-07-11 01:38:20 [WARN]: ⚠️ Tidak ada NIK yang diizinkan di file .env. Bot hanya akan merespons pengguna yang sudah terverifikasi di sesi sebelumnya (jika ada).
+2025-07-11 01:38:20 [INFO]: 🤖 Bot Pemetaan siap beroperasi pada
+2025-07-11 01:38:30 [INFO]: User: Kahfi (@kahfifauzan) - ID: 1348403944 - Action: Help command
+2025-07-11 01:38:31 [ERROR]: [ERROR] Polling error detected.
+2025-07-11 01:38:35 [INFO]: User: Kahfi (@kahfifauzan) - ID: 1348403944 - Action: Register command - Details: {"nik":"123456"}
+2025-07-11 01:40:01 [INFO]: 🤖 Bot Pemetaan siap beroperasi pada
+2025-07-11 01:40:01 [ERROR]: [ERROR] Polling error: EFATAL: AggregateError
+2025-07-11 01:40:01 [ERROR]: [ERROR] Polling error: EFATAL: AggregateError
+2025-07-11 01:40:02 [ERROR]: [ERROR] Polling error: EFATAL: AggregateError
+2025-07-11 01:40:03 [ERROR]: [ERROR] Polling error: EFATAL: AggregateError
+2025-07-11 01:40:03 [ERROR]: [ERROR] Polling error: EFATAL: AggregateError
+2025-07-11 01:40:04 [ERROR]: [ERROR] Polling error: EFATAL: AggregateError
+2025-07-11 01:40:22 [INFO]: 🤖 Bot Pemetaan siap beroperasi pada
+2025-07-11 01:40:22 [ERROR]: [ERROR] Polling error: EFATAL: AggregateError
+2025-07-11 01:40:23 [ERROR]: [ERROR] Polling error: EFATAL: AggregateError
+2025-07-11 01:40:24 [ERROR]: [ERROR] Polling error: EFATAL: AggregateError
+2025-07-11 01:40:49 [INFO]: 🤖 Bot Pemetaan siap beroperasi pada
+2025-07-11 01:40:52 [INFO]: User: Kahfi (@kahfifauzan) - ID: 1348403944 - Action: Text message received - Details: {"text":"/start"}
+2025-07-11 01:40:52 [INFO]: User: Kahfi (@kahfifauzan) - ID: 1348403944 - Action: Help command
+2025-07-11 01:40:57 [INFO]: User: Kahfi (@kahfifauzan) - ID: 1348403944 - Action: Text message received - Details: {"text":"/register 123456"}
+2025-07-11 01:40:57 [INFO]: User: Kahfi (@kahfifauzan) - ID: 1348403944 - Action: Register command - Details: {"nik":"123456"}
+2025-07-11 01:41:05 [INFO]: User: Kahfi (@kahfifauzan) - ID: 1348403944 - Action: Text message received - Details: {"text":"/new"}
+2025-07-11 01:41:05 [INFO]: User: Kahfi (@kahfifauzan) - ID: 1348403944 - Action: New session command
+2025-07-11 01:41:07 [INFO]: User: Kahfi (@kahfifauzan) - ID: 1348403944 - Action: Text message received - Details: {"text":"123"}
+2025-07-11 01:41:18 [INFO]: User: Kahfi (@kahfifauzan) - ID: 1348403944 - Action: Text message received - Details: {"text":"testing"}
+2025-07-11 01:41:20 [INFO]: User: Kahfi (@kahfifauzan) - ID: 1348403944 - Action: Text message received - Details: {}
+2025-07-11 01:41:20 [INFO]: User: Kahfi (@kahfifauzan) - ID: 1348403944 - Action: Location received - Details: {"latitude":-6.182752,"longitude":106.619575}
+2025-07-11 01:41:23 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Callback query received - Details: {"callbackData":"asset_trench"}
+2025-07-11 01:41:23 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Asset selection - Details: {"assetType":"trench"}
+2025-07-11 01:41:25 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Callback query received - Details: {"callbackData":"trench_yellow"}
+2025-07-11 01:41:25 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Trench type selection - Details: {"trenchType":"trench_yellow"}
+2025-07-11 01:41:27 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Callback query received - Details: {"callbackData":"asset_done"}
+2025-07-11 01:41:27 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Asset selection - Details: {"assetType":"done"}
+2025-07-11 01:41:30 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Callback query received - Details: {"callbackData":"line_trench_yellow"}
+2025-07-11 01:41:30 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Line type selection - Details: {"lineType":"trench"}
+2025-07-11 01:41:32 [INFO]: User: Kahfi (@kahfifauzan) - ID: 1348403944 - Action: Text message received - Details: {"text":"/done"}
+2025-07-11 01:41:32 [INFO]: User: Kahfi (@kahfifauzan) - ID: 1348403944 - Action: Done command
+2025-07-11 01:41:32 [INFO]: User:  (@N/A) - ID: 1348403944 - Action: Processing map and KML
+2025-07-11 01:41:48 [INFO]: User: Kahfi (@kahfifauzan) - ID: 1348403944 - Action: Text message received - Details: {"text":"/new"}
+2025-07-11 01:41:48 [INFO]: User: Kahfi (@kahfifauzan) - ID: 1348403944 - Action: New session command
+2025-07-11 01:41:51 [INFO]: User: Kahfi (@kahfifauzan) - ID: 1348403944 - Action: Text message received - Details: {}
+2025-07-11 01:41:51 [INFO]: User: Kahfi (@kahfifauzan) - ID: 1348403944 - Action: Location received - Details: {"latitude":-6.182551,"longitude":106.600074}
+2025-07-11 01:41:53 [INFO]: User: Kahfi (@kahfifauzan) - ID: 1348403944 - Action: Text message received - Details: {"text":"/new"}
+2025-07-11 01:41:53 [INFO]: User: Kahfi (@kahfifauzan) - ID: 1348403944 - Action: New session command
+2025-07-11 01:41:54 [INFO]: User: Kahfi (@kahfifauzan) - ID: 1348403944 - Action: Text message received - Details: {"text":"oke"}
+2025-07-11 01:41:56 [INFO]: User: Kahfi (@kahfifauzan) - ID: 1348403944 - Action: Text message received - Details: {"text":"testing"}
+2025-07-11 01:41:58 [INFO]: User: Kahfi (@kahfifauzan) - ID: 1348403944 - Action: Text message received - Details: {}
+2025-07-11 01:41:58 [INFO]: User: Kahfi (@kahfifauzan) - ID: 1348403944 - Action: Location received - Details: {"latitude":-6.17117,"longitude":106.631836}
+2025-07-11 01:42:00 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Callback query received - Details: {"callbackData":"asset_tb"}
+2025-07-11 01:42:00 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Asset selection - Details: {"assetType":"tb"}
+2025-07-11 01:42:01 [INFO]: User: Kahfi (@kahfifauzan) - ID: 1348403944 - Action: Text message received - Details: {"text":"123"}
+2025-07-11 01:42:03 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Callback query received - Details: {"callbackData":"asset_te"}
+2025-07-11 01:42:03 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Asset selection - Details: {"assetType":"te"}
+2025-07-11 01:42:04 [INFO]: User: Kahfi (@kahfifauzan) - ID: 1348403944 - Action: Text message received - Details: {"text":"132"}
+2025-07-11 01:42:05 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Callback query received - Details: {"callbackData":"asset_odp"}
+2025-07-11 01:42:05 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Asset selection - Details: {"assetType":"odp"}
+2025-07-11 01:42:07 [INFO]: User: Kahfi (@kahfifauzan) - ID: 1348403944 - Action: Text message received - Details: {"text":"odp baru"}
+2025-07-11 01:42:09 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Callback query received - Details: {"callbackData":"asset_odc"}
+2025-07-11 01:42:09 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Asset selection - Details: {"assetType":"odc"}
+2025-07-11 01:42:10 [INFO]: User: Kahfi (@kahfifauzan) - ID: 1348403944 - Action: Text message received - Details: {"text":"odc lama"}
+2025-07-11 01:42:11 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Callback query received - Details: {"callbackData":"asset_hh_pit"}
+2025-07-11 01:42:11 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Asset selection - Details: {"assetType":"hh"}
+2025-07-11 01:42:12 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Callback query received - Details: {"callbackData":"asset_hh_new"}
+2025-07-11 01:42:12 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Asset selection - Details: {"assetType":"hh"}
+2025-07-11 01:42:14 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Callback query received - Details: {"callbackData":"asset_done"}
+2025-07-11 01:42:14 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Asset selection - Details: {"assetType":"done"}
+2025-07-11 01:42:15 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Callback query received - Details: {"callbackData":"line_trench_red"}
+2025-07-11 01:42:15 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Line type selection - Details: {"lineType":"trench"}
+2025-07-11 01:42:17 [INFO]: User: Kahfi (@kahfifauzan) - ID: 1348403944 - Action: Text message received - Details: {}
+2025-07-11 01:42:17 [INFO]: User: Kahfi (@kahfifauzan) - ID: 1348403944 - Action: Location received - Details: {"latitude":-6.219674,"longitude":106.610177}
+2025-07-11 01:42:19 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Callback query received - Details: {"callbackData":"asset_trench"}
+2025-07-11 01:42:19 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Asset selection - Details: {"assetType":"trench"}
+2025-07-11 01:42:21 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Callback query received - Details: {"callbackData":"trench_red"}
+2025-07-11 01:42:21 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Trench type selection - Details: {"trenchType":"trench_red"}
+2025-07-11 01:42:23 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Callback query received - Details: {"callbackData":"asset_done"}
+2025-07-11 01:42:23 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Asset selection - Details: {"assetType":"done"}
+2025-07-11 01:42:27 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Callback query received - Details: {"callbackData":"line_trench_yellow"}
+2025-07-11 01:42:27 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Line type selection - Details: {"lineType":"trench"}
+2025-07-11 01:42:29 [INFO]: User: Kahfi (@kahfifauzan) - ID: 1348403944 - Action: Text message received - Details: {}
+2025-07-11 01:42:29 [INFO]: User: Kahfi (@kahfifauzan) - ID: 1348403944 - Action: Location received - Details: {"latitude":-6.183549,"longitude":106.634444}
+2025-07-11 01:42:31 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Callback query received - Details: {"callbackData":"asset_hh_new"}
+2025-07-11 01:42:31 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Asset selection - Details: {"assetType":"hh"}
+2025-07-11 01:42:33 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Callback query received - Details: {"callbackData":"asset_hh_pit"}
+2025-07-11 01:42:33 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Asset selection - Details: {"assetType":"hh"}
+2025-07-11 01:42:34 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Callback query received - Details: {"callbackData":"asset_done"}
+2025-07-11 01:42:34 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Asset selection - Details: {"assetType":"done"}
+2025-07-11 01:42:36 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Callback query received - Details: {"callbackData":"line_aerial"}
+2025-07-11 01:42:36 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Line type selection - Details: {"lineType":"aerial"}
+2025-07-11 01:42:39 [INFO]: User: Kahfi (@kahfifauzan) - ID: 1348403944 - Action: Text message received - Details: {"text":"/done"}
+2025-07-11 01:42:39 [INFO]: User: Kahfi (@kahfifauzan) - ID: 1348403944 - Action: Done command
+2025-07-11 01:42:39 [INFO]: User:  (@N/A) - ID: 1348403944 - Action: Processing map and KML
+2025-07-11 01:42:39 [WARN]: [WARNING] Tidak ada warna untuk lineType: trench pada titik 0. Menggunakan default kuning.
+2025-07-11 01:42:39 [WARN]: [WARNING] Tidak ada warna untuk lineType: trench pada titik 1. Menggunakan default kuning.
+2025-07-11 01:42:50 [WARN]: [WARNING] Tidak ada warna untuk lineType: trench pada titik 0. Menggunakan default kuning.
+2025-07-11 01:42:50 [WARN]: [WARNING] Tidak ada warna untuk lineType: trench pada titik 1. Menggunakan default kuning.
+2025-07-11 01:43:05 [INFO]: 🤖 Bot Pemetaan siap beroperasi pada
+2025-07-11 01:43:06 [ERROR]: [ERROR] Polling error detected.
+2025-07-11 01:43:06 [ERROR]: [ERROR] Polling error detected.
+2025-07-11 01:46:07 [INFO]: 🤖 Bot Pemetaan siap beroperasi pada
+2025-07-11 01:46:12 [INFO]: User: Kahfi (@kahfifauzan) - ID: 1348403944 - Action: Text message received - Details: {"text":"/start"}
+2025-07-11 01:46:12 [INFO]: User: Kahfi (@kahfifauzan) - ID: 1348403944 - Action: Help command
+2025-07-11 01:46:15 [INFO]: User: Kahfi (@kahfifauzan) - ID: 1348403944 - Action: Text message received - Details: {"text":"/new"}
+2025-07-11 01:46:15 [INFO]: User: Kahfi (@kahfifauzan) - ID: 1348403944 - Action: New session command
+2025-07-11 01:46:19 [INFO]: User: Kahfi (@kahfifauzan) - ID: 1348403944 - Action: Text message received - Details: {"text":"/register 123456"}
+2025-07-11 01:46:19 [INFO]: User: Kahfi (@kahfifauzan) - ID: 1348403944 - Action: Register command - Details: {"nik":"123456"}
+2025-07-11 01:46:21 [INFO]: User: Kahfi (@kahfifauzan) - ID: 1348403944 - Action: Text message received - Details: {"text":"/new"}
+2025-07-11 01:46:21 [INFO]: User: Kahfi (@kahfifauzan) - ID: 1348403944 - Action: New session command
+2025-07-11 01:46:23 [INFO]: User: Kahfi (@kahfifauzan) - ID: 1348403944 - Action: Text message received - Details: {"text":"123"}
+2025-07-11 01:46:27 [INFO]: User: Kahfi (@kahfifauzan) - ID: 1348403944 - Action: Text message received - Details: {}
+2025-07-11 01:46:27 [INFO]: User: Kahfi (@kahfifauzan) - ID: 1348403944 - Action: Location received - Details: {"latitude":-6.11731,"longitude":106.57483}
+2025-07-11 01:46:29 [INFO]: User: Kahfi (@kahfifauzan) - ID: 1348403944 - Action: Text message received - Details: {"text":"/new"}
+2025-07-11 01:46:29 [INFO]: User: Kahfi (@kahfifauzan) - ID: 1348403944 - Action: New session command
+2025-07-11 01:46:39 [INFO]: User: Kahfi (@kahfifauzan) - ID: 1348403944 - Action: Text message received - Details: {}
+2025-07-11 01:46:39 [INFO]: User: Kahfi (@kahfifauzan) - ID: 1348403944 - Action: Location received - Details: {"latitude":-6.182752,"longitude":106.619575}
+2025-07-11 01:46:42 [INFO]: User: Kahfi (@kahfifauzan) - ID: 1348403944 - Action: Text message received - Details: {"text":"/new"}
+2025-07-11 01:46:42 [INFO]: User: Kahfi (@kahfifauzan) - ID: 1348403944 - Action: New session command
+2025-07-11 01:46:47 [INFO]: User: Kahfi (@kahfifauzan) - ID: 1348403944 - Action: Text message received - Details: {}
+2025-07-11 01:46:47 [INFO]: User: Kahfi (@kahfifauzan) - ID: 1348403944 - Action: Location received - Details: {"latitude":-6.169972,"longitude":106.625076}
+2025-07-11 01:46:58 [INFO]: 🤖 Bot Pemetaan siap beroperasi pada
+2025-07-11 01:46:59 [ERROR]: [ERROR] Polling error: EFATAL: AggregateError
+2025-07-11 01:47:01 [INFO]: User: Kahfi (@kahfifauzan) - ID: 1348403944 - Action: Text message received - Details: {"text":"/new"}
+2025-07-11 01:47:01 [INFO]: User: Kahfi (@kahfifauzan) - ID: 1348403944 - Action: New session command
+2025-07-11 01:47:04 [INFO]: User: Kahfi (@kahfifauzan) - ID: 1348403944 - Action: Text message received - Details: {"text":"/register 123456"}
+2025-07-11 01:47:04 [INFO]: User: Kahfi (@kahfifauzan) - ID: 1348403944 - Action: Register command - Details: {"nik":"123456"}
+2025-07-11 01:47:06 [INFO]: User: Kahfi (@kahfifauzan) - ID: 1348403944 - Action: Text message received - Details: {"text":"/new"}
+2025-07-11 01:47:06 [INFO]: User: Kahfi (@kahfifauzan) - ID: 1348403944 - Action: New session command
+2025-07-11 01:47:08 [INFO]: User: Kahfi (@kahfifauzan) - ID: 1348403944 - Action: Text message received - Details: {"text":"312"}
+2025-07-11 01:47:09 [INFO]: User: Kahfi (@kahfifauzan) - ID: 1348403944 - Action: Text message received - Details: {"text":"132"}
+2025-07-11 01:47:12 [INFO]: User: Kahfi (@kahfifauzan) - ID: 1348403944 - Action: Text message received - Details: {}
+2025-07-11 01:47:12 [INFO]: User: Kahfi (@kahfifauzan) - ID: 1348403944 - Action: Location received - Details: {"latitude":-6.169972,"longitude":106.625076}
+2025-07-11 01:47:14 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Callback query received - Details: {"callbackData":"asset_hh_pit"}
+2025-07-11 01:47:14 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Asset selection - Details: {"assetType":"hh"}
+2025-07-11 01:47:16 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Callback query received - Details: {"callbackData":"asset_hh_new"}
+2025-07-11 01:47:16 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Asset selection - Details: {"assetType":"hh"}
+2025-07-11 01:47:17 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Callback query received - Details: {"callbackData":"asset_odp"}
+2025-07-11 01:47:17 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Asset selection - Details: {"assetType":"odp"}
+2025-07-11 01:47:19 [INFO]: User: Kahfi (@kahfifauzan) - ID: 1348403944 - Action: Text message received - Details: {"text":"132"}
+2025-07-11 01:47:20 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Callback query received - Details: {"callbackData":"asset_odc"}
+2025-07-11 01:47:20 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Asset selection - Details: {"assetType":"odc"}
+2025-07-11 01:47:21 [INFO]: User: Kahfi (@kahfifauzan) - ID: 1348403944 - Action: Text message received - Details: {"text":"123"}
+2025-07-11 01:47:23 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Callback query received - Details: {"callbackData":"asset_te"}
+2025-07-11 01:47:23 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Asset selection - Details: {"assetType":"te"}
+2025-07-11 01:47:24 [INFO]: User: Kahfi (@kahfifauzan) - ID: 1348403944 - Action: Text message received - Details: {"text":"tes"}
+2025-07-11 01:47:26 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Callback query received - Details: {"callbackData":"asset_tb"}
+2025-07-11 01:47:26 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Asset selection - Details: {"assetType":"tb"}
+2025-07-11 01:47:27 [INFO]: User: Kahfi (@kahfifauzan) - ID: 1348403944 - Action: Text message received - Details: {"text":"oke"}
+2025-07-11 01:47:29 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Callback query received - Details: {"callbackData":"asset_done"}
+2025-07-11 01:47:29 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Asset selection - Details: {"assetType":"done"}
+2025-07-11 01:47:31 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Callback query received - Details: {"callbackData":"line_aerial"}
+2025-07-11 01:47:31 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Line type selection - Details: {"lineType":"aerial"}
+2025-07-11 01:47:36 [INFO]: User: Kahfi (@kahfifauzan) - ID: 1348403944 - Action: Text message received - Details: {}
+2025-07-11 01:47:36 [INFO]: User: Kahfi (@kahfifauzan) - ID: 1348403944 - Action: Location received - Details: {"latitude":-6.224604,"longitude":106.588261}
+2025-07-11 01:47:40 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Callback query received - Details: {"callbackData":"asset_odp"}
+2025-07-11 01:47:40 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Asset selection - Details: {"assetType":"odp"}
+2025-07-11 01:47:43 [INFO]: User: Kahfi (@kahfifauzan) - ID: 1348403944 - Action: Text message received - Details: {"text":"odp123"}
+2025-07-11 01:47:48 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Callback query received - Details: {"callbackData":"asset_done"}
+2025-07-11 01:47:48 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Asset selection - Details: {"assetType":"done"}
+2025-07-11 01:47:51 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Callback query received - Details: {"callbackData":"line_trench_yellow"}
+2025-07-11 01:47:51 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Line type selection - Details: {"lineType":"trench"}
+2025-07-11 01:47:56 [INFO]: User: Kahfi (@kahfifauzan) - ID: 1348403944 - Action: Text message received - Details: {}
+2025-07-11 01:47:56 [INFO]: User: Kahfi (@kahfifauzan) - ID: 1348403944 - Action: Location received - Details: {"latitude":-6.18001,"longitude":106.637002}
+2025-07-11 01:47:59 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Callback query received - Details: {"callbackData":"asset_odc"}
+2025-07-11 01:47:59 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Asset selection - Details: {"assetType":"odc"}
+2025-07-11 01:48:02 [INFO]: User: Kahfi (@kahfifauzan) - ID: 1348403944 - Action: Text message received - Details: {"text":"odc1231"}
+2025-07-11 01:48:04 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Callback query received - Details: {"callbackData":"asset_done"}
+2025-07-11 01:48:04 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Asset selection - Details: {"assetType":"done"}
+2025-07-11 01:48:07 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Callback query received - Details: {"callbackData":"line_trench_yellow"}
+2025-07-11 01:48:07 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Line type selection - Details: {"lineType":"trench"}
+2025-07-11 01:48:12 [INFO]: User: Kahfi (@kahfifauzan) - ID: 1348403944 - Action: Text message received - Details: {}
+2025-07-11 01:48:12 [INFO]: User: Kahfi (@kahfifauzan) - ID: 1348403944 - Action: Location received - Details: {"latitude":-6.167958,"longitude":106.629093}
+2025-07-11 01:48:15 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Callback query received - Details: {"callbackData":"asset_tb"}
+2025-07-11 01:48:15 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Asset selection - Details: {"assetType":"tb"}
+2025-07-11 01:48:21 [INFO]: User: Kahfi (@kahfifauzan) - ID: 1348403944 - Action: Text message received - Details: {"text":"tiang"}
+2025-07-11 01:48:22 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Callback query received - Details: {"callbackData":"asset_done"}
+2025-07-11 01:48:22 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Asset selection - Details: {"assetType":"done"}
+2025-07-11 01:48:24 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Callback query received - Details: {"callbackData":"line_trench_red"}
+2025-07-11 01:48:24 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Line type selection - Details: {"lineType":"trench"}
+2025-07-11 01:48:28 [INFO]: User: Kahfi (@kahfifauzan) - ID: 1348403944 - Action: Text message received - Details: {"text":"/done"}
+2025-07-11 01:48:28 [INFO]: User: Kahfi (@kahfifauzan) - ID: 1348403944 - Action: Done command
+2025-07-11 01:48:28 [INFO]: User:  (@N/A) - ID: 1348403944 - Action: Processing map and KML
+2025-07-11 01:48:28 [WARN]: [WARNING] Tidak ada warna untuk lineType: trench pada titik 1. Menggunakan default kuning.
+2025-07-11 01:48:28 [WARN]: [WARNING] Tidak ada warna untuk lineType: trench pada titik 2. Menggunakan default kuning.
+2025-07-11 01:48:37 [WARN]: [WARNING] Tidak ada warna untuk lineType: trench pada titik 1. Menggunakan default kuning.
+2025-07-11 01:48:37 [WARN]: [WARNING] Tidak ada warna untuk lineType: trench pada titik 2. Menggunakan default kuning.
+2025-07-11 01:51:30 [INFO]: 🤖 Bot Pemetaan siap beroperasi pada 11/7/2025, 01.51.29
+2025-07-11 01:51:38 [INFO]: User: Kahfi (@kahfifauzan) - ID: 1348403944 - Action: Start/Help command
+2025-07-11 01:51:41 [INFO]: User: Kahfi (@kahfifauzan) - ID: 1348403944 - Action: Register command
+2025-07-11 01:51:44 [INFO]: User: Kahfi (@kahfifauzan) - ID: 1348403944 - Action: New session command
+2025-07-11 01:51:53 [INFO]: User: Kahfi (@kahfifauzan) - ID: 1348403944 - Action: Location received - Details: {"latitude":-6.18001,"longitude":106.637002}
+2025-07-11 01:51:55 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Callback query received - Details: {"callbackData":"asset_tb"}
+2025-07-11 01:52:01 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Callback query received - Details: {"callbackData":"asset_te"}
+2025-07-11 01:52:08 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Callback query received - Details: {"callbackData":"asset_odp"}
+2025-07-11 01:52:13 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Callback query received - Details: {"callbackData":"asset_odc"}
+2025-07-11 01:52:18 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Callback query received - Details: {"callbackData":"asset_hh_pit"}
+2025-07-11 01:52:31 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Callback query received - Details: {"callbackData":"asset_hh_new"}
+2025-07-11 01:52:36 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Callback query received - Details: {"callbackData":"asset_trench"}
+2025-07-11 01:52:57 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Callback query received - Details: {"callbackData":"asset_trench"}
+2025-07-11 01:53:01 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Callback query received - Details: {"callbackData":"asset_done"}
+2025-07-11 01:53:02 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Callback query received - Details: {"callbackData":"line_aerial"}
+2025-07-11 01:53:06 [INFO]: User: Kahfi (@kahfifauzan) - ID: 1348403944 - Action: Location received - Details: {"latitude":-6.178046,"longitude":106.631758}
+2025-07-11 01:53:09 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Callback query received - Details: {"callbackData":"asset_hh_pit"}
+2025-07-11 01:53:10 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Callback query received - Details: {"callbackData":"asset_hh_new"}
+2025-07-11 01:53:14 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Callback query received - Details: {"callbackData":"asset_done"}
+2025-07-11 01:53:23 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Callback query received - Details: {"callbackData":"asset_done"}
+2025-07-11 01:53:24 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Callback query received - Details: {"callbackData":"asset_done"}
+2025-07-11 01:53:25 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Callback query received - Details: {"callbackData":"asset_done"}
+2025-07-11 01:53:29 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Callback query received - Details: {"callbackData":"asset_hh_pit"}
+2025-07-11 01:53:30 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Callback query received - Details: {"callbackData":"asset_hh_new"}
+2025-07-11 01:53:30 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Callback query received - Details: {"callbackData":"asset_odc"}
+2025-07-11 01:53:34 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Callback query received - Details: {"callbackData":"asset_hh_pit"}
+2025-07-11 01:53:37 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Callback query received - Details: {"callbackData":"asset_done"}
+2025-07-11 01:53:39 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Callback query received - Details: {"callbackData":"line_trench_red"}
+2025-07-11 01:53:40 [INFO]: User: Kahfi (@kahfifauzan) - ID: 1348403944 - Action: Done command
+2025-07-11 01:53:40 [INFO]: User:  (@N/A) - ID: 1348403944 - Action: Processing map and KML
+2025-07-11 01:53:41 [ERROR]: [ERROR] Gagal memproses hasil: Request failed with status code 401
+2025-07-11 01:55:45 [INFO]: 🤖 Bot Pemetaan siap beroperasi pada 11/7/2025, 01.55.45
+2025-07-11 01:55:50 [INFO]: User: Kahfi (@kahfifauzan) - ID: 1348403944 - Action: Start/Help command
+2025-07-11 01:55:50 [ERROR]: [POLLING ERROR] EFATAL: AggregateError
+2025-07-11 01:55:54 [INFO]: User: Kahfi (@kahfifauzan) - ID: 1348403944 - Action: New session command
+2025-07-11 01:55:55 [ERROR]: [POLLING ERROR] EFATAL: AggregateError
+2025-07-11 01:55:58 [INFO]: User: Kahfi (@kahfifauzan) - ID: 1348403944 - Action: Register command
+2025-07-11 01:55:59 [ERROR]: [POLLING ERROR] EFATAL: AggregateError
+2025-07-11 01:56:00 [INFO]: User: Kahfi (@kahfifauzan) - ID: 1348403944 - Action: New session command
+2025-07-11 01:56:07 [INFO]: User: Kahfi (@kahfifauzan) - ID: 1348403944 - Action: Location received - Details: {"latitude":-6.169972,"longitude":106.625076}
+2025-07-11 01:56:11 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Callback query received - Details: {"callbackData":"asset_odp"}
+2025-07-11 01:56:14 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Callback query received - Details: {"callbackData":"asset_odc"}
+2025-07-11 01:56:18 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Callback query received - Details: {"callbackData":"asset_te"}
+2025-07-11 01:56:22 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Callback query received - Details: {"callbackData":"asset_tb"}
+2025-07-11 01:56:25 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Callback query received - Details: {"callbackData":"asset_hh_new"}
+2025-07-11 01:56:26 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Callback query received - Details: {"callbackData":"asset_hh_pit"}
+2025-07-11 01:59:04 [INFO]: 🤖 Bot Pemetaan siap beroperasi pada 11/7/2025, 01.59.04
+2025-07-11 01:59:04 [ERROR]: [POLLING ERROR] EFATAL: AggregateError
+2025-07-11 01:59:05 [ERROR]: [POLLING ERROR] EFATAL: AggregateError
+2025-07-11 01:59:16 [INFO]: User: Kahfi (@kahfifauzan) - ID: 1348403944 - Action: Start/Help command
+2025-07-11 01:59:21 [INFO]: User: Kahfi (@kahfifauzan) - ID: 1348403944 - Action: New session command
+2025-07-11 01:59:45 [INFO]: User: Kahfi (@kahfifauzan) - ID: 1348403944 - Action: Register command
+2025-07-11 01:59:56 [INFO]: User: Kahfi (@kahfifauzan) - ID: 1348403944 - Action: New session command
+2025-07-11 02:00:14 [INFO]: 🤖 Bot Pemetaan siap beroperasi pada 11/7/2025, 02.00.14
+2025-07-11 02:01:08 [INFO]: User: Kahfi (@kahfifauzan) - ID: 1348403944 - Action: Start/Help command
+2025-07-11 02:01:09 [ERROR]: [POLLING ERROR] EFATAL: AggregateError
+2025-07-11 02:01:11 [INFO]: User: Kahfi (@kahfifauzan) - ID: 1348403944 - Action: New session command
+2025-07-11 02:01:14 [INFO]: User: Kahfi (@kahfifauzan) - ID: 1348403944 - Action: Register command
+2025-07-11 02:01:16 [INFO]: User: Kahfi (@kahfifauzan) - ID: 1348403944 - Action: New session command
+2025-07-11 02:01:23 [INFO]: User: Kahfi (@kahfifauzan) - ID: 1348403944 - Action: Location received - Details: {"latitude":-6.127336,"longitude":106.526865}
+2025-07-11 02:01:25 [INFO]: User: Kahfi Fauzan (@KahfiFauzan_Bot) - ID: 1570080929 - Action: Callback query received - Details: {"callbackData":"asset_hh_new"}

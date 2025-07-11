@@ -1,0 +1,12 @@
+2025-07-05 17:17:56 [[31merror[39m]: Error saat memproses Geoapify API: ETELEGRAM: 400 Bad Request: failed to get HTTP URL content
+2025-07-05 17:19:50 [[31merror[39m]: [Polling Error]: EFATAL - EFATAL: AggregateError
+2025-07-05 17:19:57 [[31merror[39m]: Error saat memproses Geoapify API: ETELEGRAM: 400 Bad Request: failed to get HTTP URL content
+2025-07-05 17:21:18 [[31merror[39m]: [Polling Error]: EFATAL - EFATAL: AggregateError
+2025-07-05 17:21:24 [[31merror[39m]: Error saat memproses Geoapify API: Request failed with status code 400
+2025-07-05 17:24:50 [[31merror[39m]: Error saat memproses Geoapify API: Request failed with status code 400
+2025-07-05 17:25:27 [[31merror[39m]: Error saat memproses Geoapify API: Request failed with status code 400
+2025-07-05 17:26:32 [[31merror[39m]: [Polling Error]: EFATAL - EFATAL: AggregateError
+2025-07-05 17:26:51 [[31merror[39m]: --- ERROR LENGKAP SAAT MENGHUBUNGI GEOAPIFY ---
+2025-07-05 17:26:51 [[31merror[39m]: Status Code: undefined
+2025-07-05 17:26:51 [[31merror[39m]: Data Error: undefined
+2025-07-05 17:26:51 [[31merror[39m]: --- AKHIR DARI ERROR ---

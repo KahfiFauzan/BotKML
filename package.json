@@ -1,0 +1,22 @@
+{
+  "name": "project-kp",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@googlemaps/google-maps-services-js": "^3.4.1",
+    "@mapbox/polyline": "^1.2.1",
+    "axios": "^1.10.0",
+    "canvas": "^3.1.2",
+    "dotenv": "^17.0.1",
+    "node-telegram-bot-api": "^0.66.0",
+    "staticmaps": "^1.13.1",
+    "winston": "^3.17.0"
+  }
+}
